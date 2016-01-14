@@ -1,17 +1,17 @@
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-/*#colo {
-	 width: 10px;
-    height: 10px;
-};
 
-.navbar-brand {
-
-    width: 500px;
+#logo {
+	width: 200px;
     height: 100px;
-}*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  };
 
-/*#logo {
-	 width: .5px;
-    height: .5px;
-}*/
+#txt-photos {
+	width: 200px;
+	height: 263px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+};
