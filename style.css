@@ -21,6 +21,7 @@ body {
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 }
 
 #slogo {
@@ -49,7 +50,7 @@ body {
 .school_list {
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 50px
+	padding-left: 70px
 
 }
 
@@ -98,4 +99,22 @@ float: left;
 .aboutustxt {
 	text-align: center;
 }
+
+#searchbar {
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.makespaceabove {
+	padding-top: 50px;
+}
+
+
+
+
+
+
+
+
 

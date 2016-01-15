@@ -29,9 +29,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="browse.html"> Browse <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="mybooks.html"> My Books <span class="sr-only">(current)</span></a></li>
         <li><a href="schools.html"> Schools </a></li>
-        <li><a href="#"> My Books </a></li>
+        <li><a href="browse.html"> Browse </a></li>
 
       </ul>
   
@@ -65,8 +65,8 @@
 
 
   <center> 
- 	<div class="col-lg-6">
-    <div class="input-group">
+ 	<div id='searchbar' class="col-lg-6">
+    <div id='searchbar'class="input-group">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">Go!</button>
@@ -75,10 +75,13 @@
   </div><!-- /.col-lg-6 -->
 </div><!-- /.row -->
 </center> 
+ 
 
-<br><br><br><br>
+
+<br><br><br><br><br><br>
+
 <div class='school_list'> 
-<div id='header'> A </div>
+<div id='header'> A </div> <br>
 Abilene Christian University (TX) <br>
 Abraham Baldwin Agricultural College (GA) <br>
 Academy of Art University (CA)<br>
@@ -170,7 +173,7 @@ Avila University (MO)<br>
 Azusa Pacific University (CA)
 
 <br><br>
-<div id='header'> B </div>
+<div id='header'> B </div> <br>
 Babson College (MA) <br>
 Bacone College (OK)<br>
 Baker College of Flint (MI)<br>
@@ -270,11 +273,11 @@ Bryn Athyn College of the New Church (PA)<br>
 Bryn Mawr College (PA)<br>
 Bucknell University (PA)<br>
 Buena Vista University (IA)<br>
-Burlington College (VT<br>)
+Burlington College (VT)<br>
 Butler University (IN)<br>
 <br>
 
-<div id='header'> C </div>
+<div id='header'> C </div> <br>
 Cabarrus College of Health Sciences (NC)<br>
 Cabrini College (PA)<br>
 Cairn University (PA)<br>
@@ -468,7 +471,7 @@ CUNY--York College (NY)<br>
 Curry College (MA)<br>
 Curtis Institute of Music (PA)<br>
 <br>
-<div id='header'> D</div>
+<div id='header'> D</div> <br>
 D'Youville College (NY)<br>
 Daemen College (NY)<br>
 Dakota State University (SD)<br>
@@ -494,1400 +497,1404 @@ DePauw University (IN)<br>
 DEREE--The American College of Greece (None)<br>
 DeSales University (PA)<br>
 DeVry University (IL)<br>
-<!-- Dickinson College (PA)
-Dickinson State University (ND)
-Dillard University (LA)
-Divine Word College (IA)
-Dixie State University (UT)
-Doane College (NE)
-Dominican College (NY)
-Dominican University (IL)
-Dominican University of California (CA)
-Donnelly College (KS)
-Dordt College (IA)
-Dowling College (NY)
-Drake University (IA)
-Drew University (NJ)
-Drexel University (PA)
-Drury University (MO)
-Duke University (NC)
-Dunwoody College of Technology (MN)
-Duquesne University (PA)
-E
-Earlham College (IN)
-East Carolina University (NC)
-East Central University (OK)
-East Stroudsburg University of Pennsylvania (PA)
-East Tennessee State University (TN)
-East Texas Baptist University (TX)
-East-West University (IL)
-Eastern Connecticut State University (CT)
-Eastern Illinois University (IL)
-Eastern Kentucky University (KY)
-Eastern Mennonite University (VA)
-Eastern Michigan University (MI)
-Eastern Nazarene College (MA)
-Eastern New Mexico University (NM)
-Eastern Oregon University (OR)
-Eastern University (PA)
-Eastern Washington University (WA)
-Eckerd College (FL)
-ECPI University (VA)
-Edgewood College (WI)
-Edinboro University of Pennsylvania (PA)
-Edward Waters College (FL)
-Elizabeth City State University (NC)
-Elizabethtown College (PA)
-Elmhurst College (IL)
-Elmira College (NY)
-Elon University (NC)
-Embry-Riddle Aeronautical University (FL)
-Embry-Riddle Aeronautical University--Prescott (AZ)
-Emerson College (MA)
-Emmanuel College (GA)
-Emmanuel College (MA)
-Emmaus Bible College (IA)
-Emory and Henry College (VA)
-Emory University (GA)
-Emporia State University (KS)
-Endicott College (MA)
-Erskine College (SC)
-Escuela de Artes Plasticas de Puerto Rico (PR)
-Eureka College (IL)
-Evangel University (MO)
-Everest College--Phoenix (AZ)
-Everglades University (FL)
-Evergreen State College (WA)
-Excelsior College (NY)
-F
-Fairfield University (CT)
-Fairleigh Dickinson University (NJ)
-Fairmont State University (WV)
-Faith Baptist Bible College and Theological Seminary (IA)
-Farmingdale State College--SUNY (NY)
-Fashion Institute of Design & Merchandising (CA)
-Fashion Institute of Technology (NY)
-Faulkner University (AL)
-Fayetteville State University (NC)
-Felician College (NJ)
-Ferris State University (MI)
-Ferrum College (VA)
-Finlandia University (MI)
-Fisher College (MA)
-Fisk University (TN)
-Fitchburg State University (MA)
-Five Towns College (NY)
-Flagler College (FL)
-Florida A&M University (FL)
-Florida Atlantic University (FL)
-Florida Christian College (FL)
-Florida College (FL)
-Florida Gulf Coast University (FL)
-Florida Institute of Technology (FL)
-Florida International University (FL)
-Florida Memorial University (FL)
-Florida Southern College (FL)
-Florida SouthWestern State College (FL)
-Florida State College--Jacksonville (FL)
-Florida State University (FL)
-Fontbonne University (MO)
-Fordham University (NY)
-Fort Hays State University (KS)
-Fort Lewis College (CO)
-Fort Valley State University (GA)
-Framingham State University (MA)
-Francis Marion University (SC)
-Franciscan University of Steubenville (OH)
-Frank Lloyd Wright School of Architecture (AZ)
-Franklin and Marshall College (PA)
-Franklin College (IN)
-Franklin Pierce University (NH)
-Franklin University (OH)
-Franklin University Switzerland (None)
-Franklin W. Olin College of Engineering (MA)
-Freed-Hardeman University (TN)
-Fresno Pacific University (CA)
-Friends University (KS)
-Frostburg State University (MD)
-Furman University (SC)
-G
-Gallaudet University (DC)
-Gannon University (PA)
-Gardner-Webb University (NC)
-Geneva College (PA)
-George Fox University (OR)
-George Mason University (VA)
-George Washington University (DC)
-Georgetown College (KY)
-Georgetown University (DC)
-Georgia College & State University (GA)
-Georgia Gwinnett College (GA)
-Georgia Institute of Technology (GA)
-Georgia Regents University (GA)
-Georgia Southern University (GA)
-Georgia Southwestern State University (GA)
-Georgia State University (GA)
-Georgian Court University (NJ)
-Gettysburg College (PA)
-Glenville State College (WV)
-God's Bible School and College (OH)
-Goddard College (VT)
-Golden Gate University (CA)
-Goldey-Beacom College (DE)
-Goldfarb School of Nursing at Barnes-Jewish College (MO)
-Gonzaga University (WA)
-Gordon College (MA)
-Gordon State College (GA)
-Goshen College (IN)
-Goucher College (MD)
-Governors State University (IL)
-Grace Bible College (MI)
-Grace College and Seminary (IN)
-Grace University (NE)
-Graceland University (IA)
-Grambling State University (LA)
-Grand Canyon University (AZ)
-Grand Valley State University (MI)
-Grand View University (IA)
-Granite State College (NH)
-Gratz College (PA)
-Great Basin College (NV)
-Great Lakes Christian College (MI)
-Green Mountain College (VT)
-Greensboro College (NC)
-Greenville College (IL)
-Grinnell College (IA)
-Grove City College (PA)
-Guilford College (NC)
-Gustavus Adolphus College (MN)
-Gwynedd Mercy University (PA)
-H
-Hamilton College (NY)
-Hamline University (MN)
-Hampden-Sydney College (VA)
-Hampshire College (MA)
-Hampton University (VA)
-Hannibal-LaGrange University (MO)
-Hanover College (IN)
-Hardin-Simmons University (TX)
-Harding University (AR)
-Harrington College of Design (IL)
-Harris-Stowe State University (MO)
-Harrisburg University of Science and Technology (PA)
-Hartwick College (NY)
-Harvard University (MA)
-Harvey Mudd College (CA)
-Haskell Indian Nations University (KS)
-Hastings College (NE)
-Haverford College (PA)
-Hawaii Pacific University (HI)
-Hebrew Theological College (IL)
-Heidelberg University (OH)
-Hellenic College (MA)
-Henderson State University (AR)
-Hendrix College (AR)
-Heritage University (WA)
-Herzing University (WI)
-High Point University (NC)
-Hilbert College (NY)
-Hillsdale College (MI)
-Hiram College (OH)
-Hobart and William Smith Colleges (NY)
-Hodges University (FL)
-Hofstra University (NY)
-Hollins University (VA)
-Holy Apostles College and Seminary (CT)
-Holy Cross College (IN)
-Holy Family University (PA)
-Holy Names University (CA)
-Hood College (MD)
-Hope College (MI)
-Hope International University (CA)
-Houghton College (NY)
-Houston Baptist University (TX)
-Howard Payne University (TX)
-Howard University (DC)
-Hult International Business School (CA)
-Humboldt State University (CA)
-Humphreys College (CA)
-Huntingdon College (AL)
-Huntington University (IN)
-Husson University (ME)
-Huston-Tillotson University (TX)
-I
+Dickinson College (PA) <br>
+Dickinson State University (ND)<br>
+Dillard University (LA)<br>
+Divine Word College (IA)<br>
+Dixie State University (UT)<br>
+Doane College (NE)<br>
+Dominican College (NY)<br>
+Dominican University (IL)<br>
+Dominican University of California (CA)<br>
+Donnelly College (KS)<br>
+Dordt College (IA)<br>
+Dowling College (NY)<br>
+Drake University (IA)<br>
+Drew University (NJ)<br>
+Drexel University (PA)<br>
+Drury University (MO)<br>
+Duke University (NC)<br>
+Dunwoody College of Technology (MN)<br>
+Duquesne University (PA)<br>
+<br>
+
+<div id='header'> E </div> <br>
+Earlham College (IN)<br>
+East Carolina University (NC)<br>
+East Central University (OK)<br>
+East Stroudsburg University of Pennsylvania (PA)<br>
+East Tennessee State University (TN)<br>
+East Texas Baptist University (TX)<br>
+East-West University (IL)<br>
+Eastern Connecticut State University (CT)<br>
+Eastern Illinois University (IL)<br>
+Eastern Kentucky University (KY)<br>
+Eastern Mennonite University (VA)<br>
+Eastern Michigan University (MI)<br>
+Eastern Nazarene College (MA)<br>
+Eastern New Mexico University (NM)<br>
+Eastern Oregon University (OR)<br>
+Eastern University (PA)<br>
+Eastern Washington University (WA)<br>
+Eckerd College (FL)<br>
+ECPI University (VA)<br>
+Edgewood College (WI)<br>
+Edinboro University of Pennsylvania (PA)<br>
+Edward Waters College (FL)<br>
+Elizabeth City State University (NC)<br>
+Elizabethtown College (PA)<br>
+Elmhurst College (IL)<br>
+Elmira College (NY)<br>
+Elon University (NC)<br>
+Embry-Riddle Aeronautical University (FL)<br>
+Embry-Riddle Aeronautical University--Prescott (AZ)<br>
+Emerson College (MA)<br>
+Emmanuel College (GA)<br>
+Emmanuel College (MA)<br>
+Emmaus Bible College (IA)<br>
+Emory and Henry College (VA)<br>
+Emory University (GA)<br>
+Emporia State University (KS)<br>
+Endicott College (MA)<br>
+Erskine College (SC)<br>
+Escuela de Artes Plasticas de Puerto Rico (PR)<br>
+Eureka College (IL)<br>
+Evangel University (MO)<br>
+Everest College--Phoenix (AZ)<br>
+Everglades University (FL)<br>
+Evergreen State College (WA)<br>
+Excelsior College (NY)<br>
+<br>
+
+<div id='header'> E </div><br>
+
+Fairfield University (CT)<br>
+Fairleigh Dickinson University (NJ)<br>
+Fairmont State University (WV)<br>
+Faith Baptist Bible College and Theological Seminary (IA)<br>
+Farmingdale State College--SUNY (NY)<br>
+Fashion Institute of Design & Merchandising (CA)<br>
+Fashion Institute of Technology (NY)<br>
+Faulkner University (AL)<br>
+Fayetteville State University (NC)<br>
+Felician College (NJ)<br>
+Ferris State University (MI)<br>
+Ferrum College (VA)<br>
+Finlandia University (MI)<br>
+Fisher College (MA)<br>
+Fisk University (TN)<br>
+Fitchburg State University (MA)<br>
+Five Towns College (NY)<br>
+Flagler College (FL)<br>
+Florida A&M University (FL)<br>
+Florida Atlantic University (FL)<br>
+Florida Christian College (FL)<br>
+Florida College (FL)<br>
+Florida Gulf Coast University (FL)<br>
+Florida Institute of Technology (FL)<br>
+Florida International University (FL)<br>
+Florida Memorial University (FL)<br>
+Florida Southern College (FL)<br>
+Florida SouthWestern State College (FL)<br>
+Florida State College--Jacksonville (FL)<br>
+Florida State University (FL)<br>
+Fontbonne University (MO)<br>
+Fordham University (NY)<br>
+Fort Hays State University (KS)<br>
+Fort Lewis College (CO)<br>
+Fort Valley State University (GA)<br>
+Framingham State University (MA)<br>
+Francis Marion University (SC)<br>
+Franciscan University of Steubenville (OH)<br>
+Frank Lloyd Wright School of Architecture (AZ)<br>
+Franklin and Marshall College (PA)<br>
+Franklin College (IN)<br>
+Franklin Pierce University (NH)<br>
+Franklin University (OH)<br>
+Franklin University Switzerland (None)<br>
+Franklin W. Olin College of Engineering (MA)<br>
+Freed-Hardeman University (TN)<br>
+Fresno Pacific University (CA)<br>
+Friends University (KS)<br>
+Frostburg State University (MD)<br>
+Furman University (SC)<br><br>
+<div id='header'> G </div> <br>
+Gallaudet University (DC)<br>
+Gannon University (PA)<br>
+Gardner-Webb University (NC)<br>
+Geneva College (PA)<br>
+George Fox University (OR)<br>
+George Mason University (VA)<br>
+George Washington University (DC)<br>
+Georgetown College (KY)<br>
+Georgetown University (DC)<br>
+Georgia College & State University (GA)<br>
+Georgia Gwinnett College (GA)<br>
+Georgia Institute of Technology (GA)<br>
+Georgia Regents University (GA)<br>
+Georgia Southern University (GA)<br>
+Georgia Southwestern State University (GA)<br>
+Georgia State University (GA)<br>
+Georgian Court University (NJ)<br>
+Gettysburg College (PA)<br>
+Glenville State College (WV)<br>
+God's Bible School and College (OH)<br>
+Goddard College (VT)<br>
+Golden Gate University (CA)<br>
+Goldey-Beacom College (DE)<br>
+Goldfarb School of Nursing at Barnes-Jewish College (MO)<br>
+Gonzaga University (WA)<br>
+Gordon College (MA)<br>
+Gordon State College (GA)<br>
+Goshen College (IN)<br>
+Goucher College (MD)<br>
+Governors State University (IL)<br>
+Grace Bible College (MI)<br>
+Grace College and Seminary (IN)<br>
+Grace University (NE)<br>
+Graceland University (IA)<br>
+Grambling State University (LA)<br>
+Grand Canyon University (AZ)<br>
+Grand Valley State University (MI)<br>
+Grand View University (IA)<br>
+Granite State College (NH)<br>
+Gratz College (PA)<br>
+Great Basin College (NV)<br>
+Great Lakes Christian College (MI)<br>
+Green Mountain College (VT)<br>
+Greensboro College (NC)<br>
+Greenville College (IL)<br>
+Grinnell College (IA)<br>
+Grove City College (PA)<br>
+Guilford College (NC)<br>
+Gustavus Adolphus College (MN)<br>
+Gwynedd Mercy University (PA)<br><br><br>
+<div id='header'> H </div> <br>
+Hamilton College (NY)<br>
+Hamline University (MN)<br>
+Hampden-Sydney College (VA)<br>
+Hampshire College (MA)<br>
+Hampton University (VA)<br>
+Hannibal-LaGrange University (MO)<br>
+Hanover College (IN)<br>
+Hardin-Simmons University (TX)<br>
+Harding University (AR)<br>
+Harrington College of Design (IL)<br>
+Harris-Stowe State University (MO)<br>
+Harrisburg University of Science and Technology (PA)<br>
+Hartwick College (NY)<br>
+Harvard University (MA)<br>
+Harvey Mudd College (CA)<br>
+Haskell Indian Nations University (KS)<br>
+Hastings College (NE)<br>
+Haverford College (PA)<br>
+Hawaii Pacific University (HI)<br>
+Hebrew Theological College (IL)<br>
+Heidelberg University (OH)<br>
+Hellenic College (MA)<br>
+Henderson State University (AR)<br>
+Hendrix College (AR)<br>
+Heritage University (WA)<br>
+Herzing University (WI)<br>
+High Point University (NC)<br>
+Hilbert College (NY)<br>
+Hillsdale College (MI)<br>
+Hiram College (OH)<br>
+Hobart and William Smith Colleges (NY)<br>
+Hodges University (FL)<br>
+Hofstra University (NY)<br>
+Hollins University (VA)<br>
+Holy Apostles College and Seminary (CT)<br>
+Holy Cross College (IN)<br>
+Holy Family University (PA)<br>
+Holy Names University (CA)<br>
+Hood College (MD)<br>
+Hope College (MI)<br>
+Hope International University (CA)<br>
+Houghton College (NY)<br>
+Houston Baptist University (TX)<br>
+Howard Payne University (TX)<br>
+Howard University (DC)<br>
+Hult International Business School (CA)<br>
+Humboldt State University (CA)<br>
+Humphreys College (CA)<br>
+Huntingdon College (AL)<br>
+Huntington University (IN)<br>
+Husson University (ME)<br>
+Huston-Tillotson University (TX)<br>
+<div id='header'> I </div> <br><br><br>
 Idaho State University (ID)
-Illinois College (IL)
-Illinois Institute of Art--Chicago (IL)
-Illinois Institute of Technology (IL)
-Illinois State University (IL)
-Illinois Wesleyan University (IL)
-Immaculata University (PA)
-Indian River State College (FL)
-Indiana Institute of Technology (IN)
-Indiana State University (IN)
-Indiana University East (IN)
-Indiana University Northwest (IN)
-Indiana University of Pennsylvania (PA)
-Indiana University Southeast (IN)
-Indiana University--Bloomington (IN)
-Indiana University--Kokomo (IN)
-Indiana University--South Bend (IN)
-Indiana University-Purdue University--Fort Wayne (IN)
-Indiana University-Purdue University--Indianapolis (IN)
-Indiana Wesleyan University (IN)
-Institute of American Indian Arts (NM)
-Inter American University of Puerto Rico--Aguadilla (PR)
-Inter American University of Puerto Rico--Arecibo (PR)
-Inter American University of Puerto Rico--Barranquitas (PR)
-Inter American University of Puerto Rico--Bayamon (PR)
-Inter American University of Puerto Rico--Fajardo (PR)
-Inter American University of Puerto Rico--Guayama (PR)
-Inter American University of Puerto Rico--Metropolitan Campus (PR)
-Inter American University of Puerto Rico--Ponce (PR)
-Inter American University of Puerto Rico--San German (PR)
-International College of the Cayman Islands (None)
-Iona College (NY)
-Iowa State University (IA)
-Iowa Wesleyan College (IA)
-Ithaca College (NY)
-J
-Jackson State University (MS)
-Jacksonville State University (AL)
-Jacksonville University (FL)
-James Madison University (VA)
-Jarvis Christian College (TX)
-Jewish Theological Seminary of America (NY)
-John Brown University (AR)
-John Carroll University (OH)
-John F. Kennedy University (CA)
-Johns Hopkins University (MD)
-Johnson & Wales University (RI)
-Johnson C. Smith University (NC)
-Johnson State College (VT)
-Johnson University (TN)
-Jones International University (CO)
-Judson College (AL)
-Judson University (IL)
-Juilliard School (NY)
-Juniata College (PA)
-K
-Kalamazoo College (MI)
-Kansas City Art Institute (MO)
-Kansas State University (KS)
-Kansas Wesleyan University (KS)
-Kaplan University (IA)
-Kean University (NJ)
-Keene State College (NH)
-Keiser University (FL)
-Kendall College (IL)
-Kennesaw State University (GA)
-Kent State University (OH)
-Kentucky Christian University (KY)
-Kentucky State University (KY)
-Kentucky Wesleyan College (KY)
-Kenyon College (OH)
-Kettering College (OH)
-Kettering University (MI)
-Keuka College (NY)
-Keystone College (PA)
-King University (TN)
-King's College (PA)
-Knox College (IL)
-Kutztown University of Pennsylvania (PA)
-Kuyper College (MI)
-L
-La Roche College (PA)
-La Salle University (PA)
-La Sierra University (CA)
-Lafayette College (PA)
-LaGrange College (GA)
-Laguna College of Art and Design (CA)
-Lake Erie College (OH)
-Lake Forest College (IL)
-Lake Superior State University (MI)
-Lakeland College (WI)
-Lakeview College of Nursing (IL)
-Lamar University (TX)
-Lancaster Bible College (PA)
-Lander University (SC)
-Lane College (TN)
-Langston University (OK)
-Lasell College (MA)
-Lawrence Technological University (MI)
-Lawrence University (WI)
-Le Moyne College (NY)
-Lebanese American University (None)
-Lebanon Valley College (PA)
-Lee University (TN)
-Lees-McRae College (NC)
-Lehigh University (PA)
-LeMoyne-Owen College (TN)
-Lenoir-Rhyne University (NC)
-Lesley University (MA)
-LeTourneau University (TX)
-Lewis & Clark College (OR)
-Lewis University (IL)
-Lewis-Clark State College (ID)
-Liberty University (VA)
-Life Pacific College (CA)
-Life University (GA)
-LIM College (NY)
-Limestone College (SC)
-Lincoln Christian University (IL)
-Lincoln College (IL)
-Lincoln Memorial University (TN)
-Lincoln University (MO)
-Lincoln University (PA)
-Lindenwood University (MO)
-Lindsey Wilson College (KY)
-Linfield College (OR)
-Lipscomb University (TN)
-LIU Post (NY)
-Livingstone College (NC)
-Lock Haven University of Pennsylvania (PA)
-Loma Linda University (CA)
-Longwood University (VA)
-Loras College (IA)
-Louisiana College (LA)
-Louisiana State University Health Sciences Center (LA)
-Louisiana State University--Alexandria (LA)
-Louisiana State University--Baton Rouge (LA)
-Louisiana State University--Shreveport (LA)
-Louisiana Tech University (LA)
-Lourdes University (OH)
-Loyola Marymount University (CA)
-Loyola University Chicago (IL)
-Loyola University Maryland (MD)
-Loyola University New Orleans (LA)
-Lubbock Christian University (TX)
-Luther College (IA)
-Lycoming College (PA)
-Lyme Academy College of Fine Arts (CT)
-Lynchburg College (VA)
-Lyndon State College (VT)
-Lynn University (FL)
-Lyon College (AR)
-M
-Macalester College (MN)
-MacMurray College (IL)
-Madonna University (MI)
-Maharishi University of Management (IA)
-Maine College of Art (ME)
-Maine Maritime Academy (ME)
-Malone University (OH)
-Manchester University (IN)
-Manhattan Christian College (KS)
-Manhattan College (NY)
-Manhattan School of Music (NY)
-Manhattanville College (NY)
-Mansfield University of Pennsylvania (PA)
-Maranatha Baptist University (WI)
-Maria College of Albany (NY)
-Marian University (IN)
-Marian University (WI)
-Marietta College (OH)
-Marist College (NY)
-Marlboro College (VT)
-Marquette University (WI)
-Mars Hill University (NC)
-Marshall University (WV)
-Martin Luther College (MN)
-Martin Methodist College (TN)
-Martin University (IN)
-Mary Baldwin College (VA)
-Marygrove College (MI)
-Maryland Institute College of Art (MD)
-Marylhurst University (OR)
-Marymount Manhattan College (NY)
-Marymount University (VA)
-Maryville College (TN)
-Maryville University of St. Louis (MO)
-Marywood University (PA)
-Massachusetts College of Art and Design (MA)
-Massachusetts College of Liberal Arts (MA)
-Massachusetts Institute of Technology (MA)
-Massachusetts Maritime Academy (MA)
-Master's College and Seminary (CA)
-Mayville State University (ND)
-McDaniel College (MD)
-McGill University (None)
-McKendree University (IL)
-McMurry University (TX)
-McNeese State University (LA)
-McPherson College (KS)
-MCPHS University (MA)
-Medaille College (NY)
-Medical University of South Carolina (SC)
-Memorial University of Newfoundland (None)
-Memphis College of Art (TN)
-Menlo College (CA)
-Mercer University (GA)
-Mercy College (NY)
-Mercy College of Health Sciences (IA)
-Mercy College of Ohio (OH)
-Mercyhurst University (PA)
-Meredith College (NC)
-Merrimack College (MA)
-Messiah College (PA)
-Methodist University (NC)
-Metropolitan College of New York (NY)
-Metropolitan State University (MN)
-Metropolitan State University of Denver (CO)
-Miami Dade College (FL)
-Miami International University of Art & Design (FL)
-Miami University--Oxford (OH)
-Michigan State University (MI)
-Michigan Technological University (MI)
-Mid-America Christian University (OK)
-Mid-Atlantic Christian University (NC)
-MidAmerica Nazarene University (KS)
-Middle Georgia State University (GA)
-Middle Tennessee State University (TN)
-Middlebury College (VT)
-Midland College (TX)
-Midland University (NE)
-Midstate College (IL)
-Midway College (KY)
-Midwestern State University (TX)
-Miles College (AL)
-Millersville University of Pennsylvania (PA)
-Milligan College (TN)
-Millikin University (IL)
-Mills College (CA)
-Millsaps College (MS)
-Milwaukee Institute of Art and Design (WI)
-Milwaukee School of Engineering (WI)
-Minerva Schools at Keck Graduate Institute (CA)
-Minneapolis College of Art and Design (MN)
-Minnesota State University--Mankato (MN)
-Minnesota State University--Moorhead (MN)
-Minot State University (ND)
-Misericordia University (PA)
-Mississippi College (MS)
-Mississippi State University (MS)
-Mississippi University for Women (MS)
-Mississippi Valley State University (MS)
-Missouri Baptist University (MO)
-Missouri Southern State University (MO)
-Missouri State University (MO)
-Missouri University of Science & Technology (MO)
-Missouri Valley College (MO)
-Missouri Western State University (MO)
-Mitchell College (CT)
-Molloy College (NY)
-Monmouth College (IL)
-Monmouth University (NJ)
-Monroe College (NY)
-Montana State University (MT)
-Montana State University--Billings (MT)
-Montana State University--Northern (MT)
-Montana Tech of the University of Montana (MT)
-Montclair State University (NJ)
-Monterrey Institute of Technology and Higher Education--Monterrey (None)
-Montreat College (NC)
-Montserrat College of Art (MA)
-Moody Bible Institute (IL)
-Moore College of Art & Design (PA)
-Moravian College (PA)
-Morehead State University (KY)
-Morehouse College (GA)
-Morgan State University (MD)
-Morningside College (IA)
-Morris College (SC)
-Morrisville State College (NY)
-Mount Aloysius College (PA)
-Mount Angel Seminary (OR)
-Mount Carmel College of Nursing (OH)
-Mount Holyoke College (MA)
-Mount Ida College (MA)
-Mount Marty College (SD)
-Mount Mary University (WI)
-Mount Mercy University (IA)
-Mount Saint Mary's University (CA)
-Mount St. Joseph University (OH)
-Mount St. Mary College (NY)
-Mount St. Mary's University (MD)
-Mount Vernon Nazarene University (OH)
-Mount Washington College (NH)
-Muhlenberg College (PA)
-Multnomah University (OR)
-Murray State University (KY)
-Muskingum University (OH)
-N
-Naropa University (CO)
-National American University (SD)
-National Graduate School of Quality Management (MA)
-National Hispanic University (CA)
-National Louis University (IL)
-National University (CA)
-Nazarene Bible College (CO)
-Nazareth College (NY)
-Nebraska Methodist College (NE)
-Nebraska Wesleyan University (NE)
-Neumann University (PA)
-Nevada State College (NV)
-New College of Florida (FL)
-New England College (NH)
-New England Conservatory of Music (MA)
-New England Institute of Art (MA)
-New England Institute of Technology (RI)
-New Jersey City University (NJ)
-New Jersey Institute of Technology (NJ)
-New Mexico Highlands University (NM)
-New Mexico Institute of Mining and Technology (NM)
-New Mexico State University (NM)
-New Orleans Baptist Theological Seminary (LA)
-New School (NY)
-New York Institute of Technology (NY)
-New York University (NY)
-Newberry College (SC)
-Newbury College (MA)
-Newman University (KS)
-NewSchool of Architecture and Design (CA)
-Niagara University (NY)
-Nicholls State University (LA)
-Nichols College (MA)
-Norfolk State University (VA)
-North Carolina A&T State University (NC)
-North Carolina Central University (NC)
-North Carolina State University--Raleigh (NC)
-North Carolina Wesleyan College (NC)
-North Central College (IL)
-North Central University (MN)
-North Dakota State University (ND)
+Illinois College (IL)<br>
+Illinois Institute of Art--Chicago (IL)<br>
+Illinois Institute of Technology (IL)<br>
+Illinois State University (IL)<br>
+Illinois Wesleyan University (IL)<br>
+Immaculata University (PA)<br>
+Indian River State College (FL)<br>
+Indiana Institute of Technology (IN)<br>
+Indiana State University (IN)<br>
+Indiana University East (IN)<br>
+Indiana University Northwest (IN)<br>
+Indiana University of Pennsylvania (PA)<br>
+Indiana University Southeast (IN)<br>
+Indiana University--Bloomington (IN)<br>
+Indiana University--Kokomo (IN)<br>
+Indiana University--South Bend (IN)<br>
+Indiana University-Purdue University--Fort Wayne (IN)<br>
+Indiana University-Purdue University--Indianapolis (IN)<br>
+Indiana Wesleyan University (IN)<br>
+Institute of American Indian Arts (NM)<br>
+Inter American University of Puerto Rico--Aguadilla (PR)<br>
+Inter American University of Puerto Rico--Arecibo (PR)<br>
+Inter American University of Puerto Rico--Barranquitas (PR)<br>
+Inter American University of Puerto Rico--Bayamon (PR)<br>
+Inter American University of Puerto Rico--Fajardo (PR)<br>
+Inter American University of Puerto Rico--Guayama (PR)<br>
+Inter American University of Puerto Rico--Metropolitan Campus (PR)<br>
+Inter American University of Puerto Rico--Ponce (PR)<br>
+Inter American University of Puerto Rico--San German (PR)<br>
+International College of the Cayman Islands (None)<br>
+Iona College (NY)<br>
+Iowa State University (IA)<br>
+Iowa Wesleyan College (IA)<br>
+Ithaca College (NY)<br><br><br>
+<div id='header'> J</div> <br>
+Jackson State University (MS)<br>
+Jacksonville State University (AL)<br>
+Jacksonville University (FL)<br>
+James Madison University (VA)<br>
+Jarvis Christian College (TX)<br>
+Jewish Theological Seminary of America (NY)<br>
+John Brown University (AR)<br>
+John Carroll University (OH)<br>
+John F. Kennedy University (CA)<br>
+Johns Hopkins University (MD)<br>
+Johnson & Wales University (RI)<br>
+Johnson C. Smith University (NC)<br>
+Johnson State College (VT)<br>
+Johnson University (TN)<br>
+Jones International University (CO)<br>
+Judson College (AL)<br>
+Judson University (IL)<br>
+Juilliard School (NY)<br>
+Juniata College (PA)<br><br>
+<div id='header'> K </div> <br>
+Kalamazoo College (MI)<br>
+Kansas City Art Institute (MO)<br>
+Kansas State University (KS)<br>
+Kansas Wesleyan University (KS)<br>
+Kaplan University (IA)<br>
+Kean University (NJ)<br>
+Keene State College (NH)<br>
+Keiser University (FL)<br>
+Kendall College (IL)<br>
+Kennesaw State University (GA)<br>
+Kent State University (OH)<br>
+Kentucky Christian University (KY)<br>
+Kentucky State University (KY)<br>
+Kentucky Wesleyan College (KY)<br>
+Kenyon College (OH)<br>
+Kettering College (OH)<br>
+Kettering University (MI)<br>
+Keuka College (NY)<br>
+Keystone College (PA)<br>
+King University (TN)<br>
+King's College (PA)<br>
+Knox College (IL)<br>
+Kutztown University of Pennsylvania (PA)<br>
+Kuyper College (MI)<br><br>
+<div id='header'> L </div> <br>
+La Roche College (PA)<br>
+La Salle University (PA)<br>
+La Sierra University (CA)<br>
+Lafayette College (PA)<br>
+LaGrange College (GA)<br>
+Laguna College of Art and Design (CA)<br>
+Lake Erie College (OH)<br>
+Lake Forest College (IL)<br>
+Lake Superior State University (MI)<br>
+Lakeland College (WI)<br>
+Lakeview College of Nursing (IL)<br>
+Lamar University (TX)<br>
+Lancaster Bible College (PA)<br>
+Lander University (SC)<br>
+Lane College (TN)<br>
+Langston University (OK)<br>
+Lasell College (MA)<br>
+Lawrence Technological University (MI)<br>
+Lawrence University (WI)<br>
+Le Moyne College (NY)<br>
+Lebanese American University (None)<br>
+Lebanon Valley College (PA)<br>
+Lee University (TN)<br>
+Lees-McRae College (NC)<br>
+Lehigh University (PA)<br>
+LeMoyne-Owen College (TN)<br>
+Lenoir-Rhyne University (NC)<br>
+Lesley University (MA)<br>
+LeTourneau University (TX)<br>
+Lewis & Clark College (OR)<br>
+Lewis University (IL)<br>
+Lewis-Clark State College (ID)<br>
+Liberty University (VA)<br>
+Life Pacific College (CA)<br>
+Life University (GA)<br>
+LIM College (NY)<br>
+Limestone College (SC)<br>
+Lincoln Christian University (IL)<br>
+Lincoln College (IL)<br>
+Lincoln Memorial University (TN)<br>
+Lincoln University (MO)<br>
+Lincoln University (PA)<br>
+Lindenwood University (MO)<br>
+Lindsey Wilson College (KY)<br>
+Linfield College (OR)<br>
+Lipscomb University (TN)<br>
+LIU Post (NY)<br>
+Livingstone College (NC)<br>
+Lock Haven University of Pennsylvania (PA)<br>
+Loma Linda University (CA)<br>
+Longwood University (VA)<br>
+Loras College (IA)<br>
+Louisiana College (LA)<br>
+Louisiana State University Health Sciences Center (LA)<br>
+Louisiana State University--Alexandria (LA)<br>
+Louisiana State University--Baton Rouge (LA)<br>
+Louisiana State University--Shreveport (LA)<br>
+Louisiana Tech University (LA)<br>
+Lourdes University (OH)<br>
+Loyola Marymount University (CA)<br>
+Loyola University Chicago (IL)<br>
+Loyola University Maryland (MD)<br>
+Loyola University New Orleans (LA)<br>
+Lubbock Christian University (TX)<br>
+Luther College (IA)<br>
+Lycoming College (PA)<br>
+Lyme Academy College of Fine Arts (CT)<br>
+Lynchburg College (VA)<br>
+Lyndon State College (VT)<br>
+Lynn University (FL)<br>
+Lyon College (AR)<br><br>
+<div id='header'> M </div> <br>
+Macalester College (MN)<br>
+MacMurray College (IL)<br>
+Madonna University (MI)<br>
+Maharishi University of Management (IA)<br>
+Maine College of Art (ME)<br>
+Maine Maritime Academy (ME)<br>
+Malone University (OH)<br>
+Manchester University (IN)<br>
+Manhattan Christian College (KS)<br>
+Manhattan College (NY)<br>
+Manhattan School of Music (NY)<br>
+Manhattanville College (NY)<br>
+Mansfield University of Pennsylvania (PA)<br>
+Maranatha Baptist University (WI)<br>
+Maria College of Albany (NY)<br>
+Marian University (IN)<br>
+Marian University (WI)<br>
+Marietta College (OH)<br>
+Marist College (NY)<br>
+Marlboro College (VT)<br>
+Marquette University (WI)<br>
+Mars Hill University (NC)<br>
+Marshall University (WV)<br>
+Martin Luther College (MN)<br>
+Martin Methodist College (TN)<br>
+Martin University (IN)<br>
+Mary Baldwin College (VA)<br>
+Marygrove College (MI)<br>
+Maryland Institute College of Art (MD)<br>
+Marylhurst University (OR)<br>
+Marymount Manhattan College (NY)<br>
+Marymount University (VA)<br>
+Maryville College (TN)<br>
+Maryville University of St. Louis (MO)<br>
+Marywood University (PA)<br>
+Massachusetts College of Art and Design (MA)<br>
+Massachusetts College of Liberal Arts (MA)<br>
+Massachusetts Institute of Technology (MA)<br>
+Massachusetts Maritime Academy (MA)<br>
+Master's College and Seminary (CA)<br>
+Mayville State University (ND)<br>
+McDaniel College (MD)<br>
+McGill University (None)<br>
+McKendree University (IL)<br>
+McMurry University (TX)<br>
+McNeese State University (LA)<br>
+McPherson College (KS)<br>
+MCPHS University (MA)<br>
+Medaille College (NY)<br>
+Medical University of South Carolina (SC)<br>
+Memorial University of Newfoundland (None)<br>
+Memphis College of Art (TN)<br>
+Menlo College (CA)<br>
+Mercer University (GA)<br>
+Mercy College (NY)<br>
+Mercy College of Health Sciences (IA)<br>
+Mercy College of Ohio (OH)<br>
+Mercyhurst University (PA)<br>
+Meredith College (NC)<br>
+Merrimack College (MA)<br>
+Messiah College (PA)<br>
+Methodist University (NC)<br>
+Metropolitan College of New York (NY)<br>
+Metropolitan State University (MN)<br>
+Metropolitan State University of Denver (CO)<br>
+Miami Dade College (FL)<br>
+Miami International University of Art & Design (FL)<br>
+Miami University--Oxford (OH)<br>
+Michigan State University (MI)<br>
+Michigan Technological University (MI)<br>
+Mid-America Christian University (OK)<br>
+Mid-Atlantic Christian University (NC)<br>
+MidAmerica Nazarene University (KS)<br>
+Middle Georgia State University (GA)<br>
+Middle Tennessee State University (TN)<br>
+Middlebury College (VT)<br>
+Midland College (TX)<br>
+Midland University (NE)<br>
+Midstate College (IL)<br>
+Midway College (KY)<br>
+Midwestern State University (TX)<br>
+Miles College (AL)<br>
+Millersville University of Pennsylvania (PA)<br>
+Milligan College (TN)<br>
+Millikin University (IL)<br>
+Mills College (CA)<br>
+Millsaps College (MS)<br>
+Milwaukee Institute of Art and Design (WI)<br>
+Milwaukee School of Engineering (WI)<br>
+Minerva Schools at Keck Graduate Institute (CA)<br>
+Minneapolis College of Art and Design (MN)<br>
+Minnesota State University--Mankato (MN)<br>
+Minnesota State University--Moorhead (MN)<br>
+Minot State University (ND)<br>
+Misericordia University (PA)<br>
+Mississippi College (MS)<br>
+Mississippi State University (MS)<br>
+Mississippi University for Women (MS)<br>
+Mississippi Valley State University (MS)<br>
+Missouri Baptist University (MO)<br>
+Missouri Southern State University (MO)<br>
+Missouri State University (MO)<br>
+Missouri University of Science & Technology (MO)<br>
+Missouri Valley College (MO)<br>
+Missouri Western State University (MO)<br>
+Mitchell College (CT)<br>
+Molloy College (NY)<br>
+Monmouth College (IL)<br>
+Monmouth University (NJ)<br>
+Monroe College (NY)<br>
+Montana State University (MT)<br>
+Montana State University--Billings (MT)<br>
+Montana State University--Northern (MT)<br>
+Montana Tech of the University of Montana (MT)<br>
+Montclair State University (NJ)<br>
+Monterrey Institute of Technology and Higher Education--Monterrey (None)<br>
+Montreat College (NC)<br>
+Montserrat College of Art (MA)<br>
+Moody Bible Institute (IL)<br>
+Moore College of Art & Design (PA)<br>
+Moravian College (PA)<br>
+Morehead State University (KY)<br>
+Morehouse College (GA)<br>
+Morgan State University (MD)<br>
+Morningside College (IA)<br>
+Morris College (SC)<br>
+Morrisville State College (NY)<br>
+Mount Aloysius College (PA)<br>
+Mount Angel Seminary (OR)<br>
+Mount Carmel College of Nursing (OH)<br>
+Mount Holyoke College (MA)<br>
+Mount Ida College (MA)<br>
+Mount Marty College (SD)<br>
+Mount Mary University (WI)<br>
+Mount Mercy University (IA)<br>
+Mount Saint Mary's University (CA)<br>
+Mount St. Joseph University (OH)<br>
+Mount St. Mary College (NY)<br>
+Mount St. Mary's University (MD)<br>
+Mount Vernon Nazarene University (OH)<br>
+Mount Washington College (NH)<br>
+Muhlenberg College (PA)<br>
+Multnomah University (OR)<br>
+Murray State University (KY)<br>
+Muskingum University (OH)<br><br>
+
+ 
+<div id='header'> N </div> <br>
+Naropa University (CO)<br>
+National American University (SD)<br>
+National Graduate School of Quality Management (MA)<br>
+National Hispanic University (CA)<br>
+National Louis University (IL)<br>
+National University (CA)<br>
+Nazarene Bible College (CO)<br>
+Nazareth College (NY)<br>
+Nebraska Methodist College (NE)<br>
+Nebraska Wesleyan University (NE)<br>
+Neumann University (PA)<br>
+Nevada State College (NV)<br>
+New College of Florida (FL)<br>
+New England College (NH)<br>
+New England Conservatory of Music (MA)<br>
+New England Institute of Art (MA)<br>
+New England Institute of Technology (RI)<br>
+New Jersey City University (NJ)<br>
+New Jersey Institute of Technology (NJ)<br>
+New Mexico Highlands University (NM)<br>
+New Mexico Institute of Mining and Technology (NM)<br>
+New Mexico State University (NM)<br>
+New Orleans Baptist Theological Seminary (LA)<br>
+New School (NY)<br>
+New York Institute of Technology (NY)<br>
+New York University (NY)<br>
+Newberry College (SC)<br>
+Newbury College (MA)<br>
+Newman University (KS)<br>
+NewSchool of Architecture and Design (CA)<br>
+Niagara University (NY)<br>
+Nicholls State University (LA)<br>
+Nichols College (MA)<br>
+Norfolk State University (VA)<br>
+North Carolina A&T State University (NC)<br>
+North Carolina Central University (NC)<br>
+North Carolina State University--Raleigh (NC)<br>
+North Carolina Wesleyan College (NC)<br>
+North Central College (IL)<br>
+North Central University (MN)<br>
+North Dakota State University (ND)<br>
 North Greenville University (SC)
-North Park University (IL)
-Northcentral University (AZ)
-Northeastern Illinois University (IL)
-Northeastern State University (OK)
-Northeastern University (MA)
-Northern Arizona University (AZ)
-Northern Illinois University (IL)
-Northern Kentucky University (KY)
-Northern Michigan University (MI)
-Northern New Mexico University (NM)
-Northern State University (SD)
-Northland College (WI)
-Northwest Christian University (OR)
-Northwest Florida State College (FL)
-Northwest Missouri State University (MO)
-Northwest Nazarene University (ID)
-Northwest University (WA)
-Northwestern College (IA)
-Northwestern Health Sciences University (MN)
-Northwestern Oklahoma State University (OK)
-Northwestern State University of Louisiana (LA)
-Northwestern University (IL)
-Northwood University (MI)
-Norwich University (VT)
-Notre Dame College of Ohio (OH)
-Notre Dame de Namur University (CA)
-Notre Dame of Maryland University (MD)
-Nova Scotia College of Art and Design (None)
-Nova Southeastern University (FL)
-Nyack College (NY)
-O
-Oakland City University (IN)
-Oakland University (MI)
-Oakwood University (AL)
-Oberlin College (OH)
-Occidental College (CA)
-Oglala Lakota College (SD)
-Oglethorpe University (GA)
-Ohio Christian University (OH)
-Ohio Dominican University (OH)
-Ohio Northern University (OH)
-Ohio State University--Columbus (OH)
-Ohio University (OH)
-Ohio Valley University (WV)
-Ohio Wesleyan University (OH)
-Oklahoma Baptist University (OK)
-Oklahoma Christian University (OK)
-Oklahoma City University (OK)
-Oklahoma Panhandle State University (OK)
-Oklahoma State University (OK)
-Oklahoma State University Institute of Technology--Okmulgee (OK)
-Oklahoma State University--Oklahoma City (OK)
-Oklahoma Wesleyan University (OK)
-Old Dominion University (VA)
-Olivet College (MI)
-Olivet Nazarene University (IL)
-Olympic College (WA)
-Oral Roberts University (OK)
-Oregon College of Art and Craft (OR)
-Oregon Health and Science University (OR)
-Oregon Institute of Technology (OR)
-Oregon State University (OR)
-Otis College of Art and Design (CA)
-Ottawa University (KS)
-Otterbein University (OH)
-Ouachita Baptist University (AR)
-Our Lady of Holy Cross College (LA)
-Our Lady of the Lake College (LA)
-Our Lady of the Lake University (TX)
-P
-Pace University (NY)
-Pacific Lutheran University (WA)
-Pacific Northwest College of Art (OR)
-Pacific Oaks College (CA)
-Pacific Union College (CA)
-Pacific University (OR)
-Paine College (GA)
-Palm Beach Atlantic University (FL)
-Palmer College of Chiropractic (IA)
-Park University (MO)
-Parker University (TX)
-Patten University (CA)
-Paul Smith's College (NY)
-Peirce College (PA)
-Peninsula College (WA)
-Pennsylvania College of Art and Design (PA)
-Pennsylvania College of Technology (PA)
-Pennsylvania State University--Erie, The Behrend College (PA)
-Pennsylvania State University--Harrisburg (PA)
-Pennsylvania State University--University Park (PA)
-Pepperdine University (CA)
-Peru State College (NE)
-Pfeiffer University (NC)
-Philadelphia University (PA)
-Philander Smith College (AR)
-Piedmont College (GA)
-Pine Manor College (MA)
-Pittsburg State University (KS)
-Pitzer College (CA)
-Plaza College (NY)
-Plymouth State University (NH)
-Point Loma Nazarene University (CA)
-Point Park University (PA)
-Point University (GA)
-Pomona College (CA)
-Pontifical Catholic University of Puerto Rico (PR)
-Pontifical College Josephinum (OH)
-Portland State University (OR)
-Post University (CT)
-Prairie View A&M University (TX)
-Pratt Institute (NY)
-Presbyterian College (SC)
-Prescott College (AZ)
-Presentation College (SD)
-Princeton University (NJ)
-Principia College (IL)
-Providence College (RI)
-Puerto Rico Conservatory of Music (PR)
-Purchase College--SUNY (NY)
-Purdue University--Calumet (IN)
-Purdue University--North Central (IN)
-Purdue University--West Lafayette (IN)
-Q
-Queens University of Charlotte (NC)
-Quincy University (IL)
-Quinnipiac University (CT)
-R
-Radford University (VA)
-Ramapo College of New Jersey (NJ)
-Randolph College (VA)
-Randolph-Macon College (VA)
-Ranken Technical College (MO)
-Reed College (OR)
-Regent University (VA)
-Regent's American College London (None)
-Regis College (MA)
-Regis University (CO)
-Reinhardt University (GA)
-Rensselaer Polytechnic Institute (NY)
-Research College of Nursing (MO)
-Resurrection University (IL)
-Rhode Island College (RI)
-Rhode Island School of Design (RI)
-Rhodes College (TN)
-Rice University (TX)
-Richmond--The American International University in London (None)
-Rider University (NJ)
-Ringling College of Art and Design (FL)
-Ripon College (WI)
-Rivier University (NH)
-Roanoke College (VA)
-Robert B. Miller College (MI)
-Robert Morris University (IL)
-Robert Morris University (PA)
-Roberts Wesleyan College (NY)
-Rochester College (MI)
-Rochester Institute of Technology (NY)
-Rockford University (IL)
-Rockhurst University (MO)
-Rocky Mountain College (MT)
-Rocky Mountain College of Art and Design (CO)
-Roger Williams University (RI)
-Rogers State University (OK)
-Rollins College (FL)
-Roosevelt University (IL)
-Rosalind Franklin University of Medicine and Science (IL)
-Rose-Hulman Institute of Technology (IN)
-Rosemont College (PA)
-Rowan University (NJ)
-Rust College (MS)
-Rutgers, The State University of New Jersey--Camden (NJ)
-Rutgers, The State University of New Jersey--New Brunswick (NJ)
-Rutgers, The State University of New Jersey--Newark (NJ)
-Ryerson University (None)
-S
-Sacred Heart Major Seminary (MI)
-Sacred Heart University (CT)
-Saginaw Valley State University (MI)
-Saint Leo University (FL)
-Saint Louis University (MO)
-Saint Mary-of-the-Woods College (IN)
-Saint Vincent College (PA)
-Salem College (NC)
-Salem International University (WV)
-Salem State University (MA)
-Salisbury University (MD)
-Salish Kootenai College (MT)
-Salve Regina University (RI)
-Sam Houston State University (TX)
-Samford University (AL)
-Samuel Merritt University (CA)
-San Diego Christian College (CA)
-San Diego State University (CA)
-San Francisco Art Institute (CA)
-San Francisco Conservatory of Music (CA)
-San Francisco State University (CA)
-San Jose State University (CA)
-Santa Clara University (CA)
-Santa Fe University of Art and Design (NM)
-Sarah Lawrence College (NY)
-Savannah College of Art and Design (GA)
-Savannah State University (GA)
-School of the Art Institute of Chicago (IL)
-School of Visual Arts (NY)
-Schreiner University (TX)
-Scripps College (CA)
-Seattle Pacific University (WA)
-Seattle University (WA)
-Seminole State College of Florida (FL)
-Seton Hall University (NJ)
-Seton Hill University (PA)
-Sewanee--University of the South (TN)
-Shaw University (NC)
-Shawnee State University (OH)
-Shenandoah University (VA)
-Shepherd University (WV)
-Shimer College (IL)
-Shippensburg University of Pennsylvania (PA)
-Shorter University (GA)
-Siena College (NY)
-Siena Heights University (MI)
-Sierra Nevada College (NV)
-Silver Lake College (WI)
-Simmons College (MA)
-Simon Fraser University (None)
-Simpson College (IA)
-Simpson University (CA)
-Sinte Gleska University (SD)
-Sitting Bull College (ND)
-Skidmore College (NY)
-Slippery Rock University of Pennsylvania (PA)
-Smith College (MA)
-Sojourner-Douglass College (MD)
-Soka University of America (CA)
-Sonoma State University (CA)
-South Carolina State University (SC)
-South College (TN)
-South Dakota School of Mines and Technology (SD)
-South Dakota State University (SD)
-South Seattle College (WA)
-South Texas College (TX)
-South University (GA)
-Southeast Missouri State University (MO)
-Southeastern Louisiana University (LA)
-Southeastern Oklahoma State University (OK)
-Southeastern University (FL)
-Southern Adventist University (TN)
-Southern Arkansas University (AR)
-Southern Baptist Theological Seminary (KY)
-Southern California Institute of Architecture (CA)
-Southern Connecticut State University (CT)
-Southern Illinois University--Carbondale (IL)
-Southern Illinois University--Edwardsville (IL)
-Southern Methodist University (TX)
-Southern Nazarene University (OK)
-Southern New Hampshire University (NH)
-Southern Oregon University (OR)
-Southern University and A&M College (LA)
-Southern University--New Orleans (LA)
-Southern Utah University (UT)
-Southern Vermont College (VT)
-Southern Wesleyan University (SC)
-Southwest Baptist University (MO)
-Southwest Minnesota State University (MN)
-Southwest University of Visual Arts (AZ)
-Southwestern Adventist University (TX)
-Southwestern Assemblies of God University (TX)
-Southwestern Christian College (TX)
-Southwestern Christian University (OK)
-Southwestern College (KS)
-Southwestern Oklahoma State University (OK)
-Southwestern University (TX)
-Spalding University (KY)
-Spelman College (GA)
-Spring Arbor University (MI)
-Spring Hill College (AL)
-Springfield College (MA)
-St. Ambrose University (IA)
-St. Anselm College (NH)
-St. Anthony College of Nursing (IL)
-St. Augustine College (IL)
-St. Augustine's University (NC)
-St. Bonaventure University (NY)
-St. Catharine College (KY)
-St. Catherine University (MN)
-St. Charles Borromeo Seminary (PA)
-St. Cloud State University (MN)
-St. Edward's University (TX)
-St. Francis College (NY)
-St. Francis Medical Center College of Nursing (IL)
-St. Francis University (PA)
-St. Gregory's University (OK)
-St. John Fisher College (NY)
-St. John Vianney College Seminary (FL)
-St. John's College (MD)
-St. John's College (NM)
-St. John's College (IL)
-St. John's University (MN)
-St. John's University (NY)
-St. Joseph Seminary College (LA)
-St. Joseph's College (IN)
-St. Joseph's College (ME)
-St. Joseph's College New York (NY)
-St. Joseph's University (PA)
-St. Lawrence University (NY)
-St. Louis College of Pharmacy (MO)
-St. Luke's College of Health Sciences (MO)
-St. Martin's University (WA)
-St. Mary's College (IN)
-St. Mary's College of California (CA)
-St. Mary's College of Maryland (MD)
-St. Mary's Seminary and University (MD)
-St. Mary's University of Minnesota (MN)
-St. Mary's University of San Antonio (TX)
-St. Michael's College (VT)
-St. Norbert College (WI)
-St. Olaf College (MN)
-St. Peter's University (NJ)
-St. Petersburg College (FL)
-St. Thomas Aquinas College (NY)
-St. Thomas University (FL)
-St. Xavier University (IL)
-Stanford University (CA)
-Stephen F. Austin State University (TX)
-Stephens College (MO)
-Sterling College (KS)
-Sterling College (VT)
-Stetson University (FL)
-Stevens Institute of Technology (NJ)
-Stevenson University (MD)
-Stillman College (AL)
-Stockton University (NJ)
-Stonehill College (MA)
-Stony Brook University--SUNY (NY)
-Strayer University (DC)
-Suffolk University (MA)
-Sul Ross State University (TX)
-Sullivan University (KY)
-Summit University (PA)
-SUNY Buffalo State (NY)
-SUNY College of Agriculture and Technology--Cobleskill (NY)
-SUNY College of Environmental Science and Forestry (NY)
-SUNY College of Technology--Alfred (NY)
-SUNY College of Technology--Canton (NY)
-SUNY College of Technology--Delhi (NY)
-SUNY College--Cortland (NY)
-SUNY College--Old Westbury (NY)
-SUNY College--Oneonta (NY)
-SUNY College--Potsdam (NY)
-SUNY Downstate Medical Center (NY)
-SUNY Empire State College (NY)
-SUNY Maritime College (NY)
-SUNY Polytechnic Institute (NY)
-SUNY Upstate Medical University (NY)
-SUNY--Fredonia (NY)
-SUNY--Geneseo (NY)
-SUNY--New Paltz (NY)
-SUNY--Oswego (NY)
-SUNY--Plattsburgh (NY)
-Susquehanna University (PA)
-Swarthmore College (PA)
-Syracuse University (NY)
-T
-Tabor College (KS)
-Talladega College (AL)
-Tarleton State University (TX)
-Taylor University (IN)
-Temple University (PA)
-Tennessee State University (TN)
-Tennessee Technological University (TN)
-Tennessee Wesleyan College (TN)
-Texas A&M International University (TX)
-Texas A&M University--College Station (TX)
-Texas A&M University--Commerce (TX)
-Texas A&M University--Corpus Christi (TX)
-Texas A&M University--Kingsville (TX)
-Texas A&M University--Texarkana (TX)
-Texas Christian University (TX)
-Texas College (TX)
-Texas Lutheran University (TX)
-Texas Southern University (TX)
-Texas State University (TX)
-Texas Tech University (TX)
-Texas Tech University Health Sciences Center (TX)
-Texas Wesleyan University (TX)
-Texas Woman's University (TX)
-The Catholic University of America (DC)
-The Citadel (SC)
-The King's College (NY)
-The Sage Colleges (NY)
-Thiel College (PA)
-Thomas Aquinas College (CA)
-Thomas College (ME)
-Thomas Edison State College (NJ)
-Thomas Jefferson University (PA)
-Thomas More College (KY)
-Thomas More College of Liberal Arts (NH)
-Thomas University (GA)
-Tiffin University (OH)
-Tilburg University (None)
-Toccoa Falls College (GA)
-Tougaloo College (MS)
-Touro College (NY)
-Towson University (MD)
-Transylvania University (KY)
-Trent University (None)
-Trevecca Nazarene University (TN)
-Trident University International (CA)
-Trine University (IN)
-Trinity Christian College (IL)
-Trinity College (CT)
-Trinity College of Nursing & Health Sciences (IL)
-Trinity International University (IL)
-Trinity Lutheran College (WA)
-Trinity University (TX)
-Trinity Washington University (DC)
-Trinity Western University (None)
-Troy University (AL)
-Truett McConnell College (GA)
-Truman State University (MO)
-Tufts University (MA)
-Tulane University (LA)
-Tusculum College (TN)
-Tuskegee University (AL)
-U
-Union College (KY)
-Union College (NE)
-Union College (NY)
-Union Institute and University (OH)
-Union University (TN)
-United States Air Force Academy (CO)
-United States Coast Guard Academy (CT)
-United States International University--Kenya (None)
-United States Merchant Marine Academy (NY)
-United States Military Academy (NY)
-United States Naval Academy (MD)
-United States Sports Academy (AL)
-Unity College (ME)
-Universidad Adventista de las Antillas (PR)
-Universidad del Este (PR)
-Universidad del Turabo (PR)
-Universidad Metropolitana (PR)
-Universidad Politecnica de Puerto Rico (PR)
-University at Albany--SUNY (NY)
-University at Buffalo--SUNY (NY)
-University of Advancing Technology (AZ)
-University of Akron (OH)
-University of Alabama (AL)
-University of Alabama--Birmingham (AL)
-University of Alabama--Huntsville (AL)
-University of Alaska--Anchorage (AK)
-University of Alaska--Fairbanks (AK)
-University of Alaska--Southeast (AK)
-University of Alberta (None)
-University of Arizona (AZ)
-University of Arkansas (AR)
-University of Arkansas for Medical Sciences (AR)
-University of Arkansas--Fort Smith (AR)
-University of Arkansas--Little Rock (AR)
-University of Arkansas--Monticello (AR)
-University of Arkansas--Pine Bluff (AR)
-University of Baltimore (MD)
-University of Bridgeport (CT)
-University of British Columbia (None)
-University of Calgary (None)
-University of California--Berkeley (CA)
-University of California--Davis (CA)
-University of California--Irvine (CA)
-University of California--Los Angeles (CA)
-University of California--Merced (CA)
-University of California--Riverside (CA)
-University of California--San Diego (CA)
-University of California--Santa Barbara (CA)
-University of California--Santa Cruz (CA)
-University of Central Arkansas (AR)
-University of Central Florida (FL)
-University of Central Missouri (MO)
-University of Central Oklahoma (OK)
-University of Charleston (WV)
-University of Chicago (IL)
-University of Cincinnati (OH)
-University of Cincinnati--UC Blue Ash College (OH)
-University of Colorado--Boulder (CO)
-University of Colorado--Colorado Springs (CO)
-University of Colorado--Denver (CO)
-University of Connecticut (CT)
-University of Dallas (TX)
-University of Dayton (OH)
-University of Delaware (DE)
-University of Denver (CO)
-University of Detroit Mercy (MI)
-University of Dubuque (IA)
-University of Evansville (IN)
-University of Findlay (OH)
-University of Florida (FL)
-University of Georgia (GA)
-University of Great Falls (MT)
-University of Guam (GU)
-University of Guelph (None)
-University of Hartford (CT)
-University of Hawaii--Hilo (HI)
-University of Hawaii--Manoa (HI)
-University of Hawaii--Maui College (HI)
-University of Hawaii--West Oahu (HI)
-University of Houston (TX)
-University of Houston--Clear Lake (TX)
-University of Houston--Downtown (TX)
-University of Houston--Victoria (TX)
-University of Idaho (ID)
-University of Illinois--Chicago (IL)
-University of Illinois--Springfield (IL)
-University of Illinois--Urbana-Champaign (IL)
-University of Indianapolis (IN)
-University of Iowa (IA)
-University of Jamestown (ND)
-University of Kansas (KS)
-University of Kentucky (KY)
-University of La Verne (CA)
-University of Louisiana--Lafayette (LA)
-University of Louisiana--Monroe (LA)
-University of Louisville (KY)
-University of Maine (ME)
-University of Maine--Augusta (ME)
-University of Maine--Farmington (ME)
-University of Maine--Fort Kent (ME)
-University of Maine--Machias (ME)
-University of Maine--Presque Isle (ME)
-University of Mary (ND)
-University of Mary Hardin-Baylor (TX)
-University of Mary Washington (VA)
-University of Maryland University College (MD)
-University of Maryland--Baltimore (MD)
-University of Maryland--Baltimore County (MD)
-University of Maryland--College Park (MD)
-University of Maryland--Eastern Shore (MD)
-University of Massachusetts--Amherst (MA)
-University of Massachusetts--Boston (MA)
-University of Massachusetts--Dartmouth (MA)
-University of Massachusetts--Lowell (MA)
-University of Memphis (TN)
-University of Miami (FL)
-University of Michigan--Ann Arbor (MI)
-University of Michigan--Dearborn (MI)
-University of Michigan--Flint (MI)
-University of Minnesota--Crookston (MN)
-University of Minnesota--Duluth (MN)
-University of Minnesota--Morris (MN)
-University of Minnesota--Twin Cities (MN)
-University of Mississippi (MS)
-University of Mississippi Medical Center (MS)
-University of Missouri (MO)
-University of Missouri--Kansas City (MO)
-University of Missouri--St. Louis (MO)
-University of Mobile (AL)
-University of Montana (MT)
-University of Montana--Western (MT)
-University of Montevallo (AL)
-University of Mount Olive (NC)
-University of Mount Union (OH)
-University of Nebraska Medical Center (NE)
-University of Nebraska--Kearney (NE)
-University of Nebraska--Lincoln (NE)
-University of Nebraska--Omaha (NE)
-University of Nevada--Las Vegas (NV)
-University of Nevada--Reno (NV)
-University of New Brunswick (None)
-University of New England (ME)
-University of New Hampshire (NH)
-University of New Haven (CT)
-University of New Mexico (NM)
-University of New Orleans (LA)
-University of North Alabama (AL)
-University of North Carolina School of the Arts (NC)
-University of North Carolina--Asheville (NC)
-University of North Carolina--Chapel Hill (NC)
-University of North Carolina--Charlotte (NC)
-University of North Carolina--Greensboro (NC)
-University of North Carolina--Pembroke (NC)
-University of North Carolina--Wilmington (NC)
-University of North Dakota (ND)
-University of North Florida (FL)
-University of North Georgia (GA)
-University of North Texas (TX)
-University of Northern Colorado (CO)
-University of Northern Iowa (IA)
-University of Northwestern Ohio (OH)
-University of Northwestern--St. Paul (MN)
-University of Notre Dame (IN)
-University of Oklahoma (OK)
-University of Oregon (OR)
-University of Ottawa (None)
-University of Pennsylvania (PA)
-University of Phoenix (AZ)
-University of Pikeville (KY)
-University of Pittsburgh (PA)
-University of Portland (OR)
-University of Prince Edward Island (None)
-University of Puerto Rico--Aguadilla (PR)
-University of Puerto Rico--Arecibo (PR)
-University of Puerto Rico--Bayamon (PR)
-University of Puerto Rico--Cayey (PR)
-University of Puerto Rico--Humacao (PR)
-University of Puerto Rico--Mayaguez (PR)
-University of Puerto Rico--Medical Sciences Campus (PR)
-University of Puerto Rico--Ponce (PR)
-University of Puerto Rico--Rio Piedras (PR)
-University of Puget Sound (WA)
-University of Redlands (CA)
-University of Regina (None)
-University of Rhode Island (RI)
-University of Richmond (VA)
-University of Rio Grande (OH)
-University of Rochester (NY)
-University of Saint Francis (IN)
-University of San Diego (CA)
-University of San Francisco (CA)
-University of Saskatchewan (None)
-University of Science and Arts of Oklahoma (OK)
-University of Scranton (PA)
-University of Sioux Falls (SD)
-University of South Alabama (AL)
-University of South Carolina (SC)
-University of South Carolina--Aiken (SC)
-University of South Carolina--Beaufort (SC)
-University of South Carolina--Upstate (SC)
-University of South Dakota (SD)
-University of South Florida (FL)
-University of South Florida--St. Petersburg (FL)
-University of Southern California (CA)
-University of Southern Indiana (IN)
-University of Southern Maine (ME)
-University of Southern Mississippi (MS)
-University of St. Francis (IL)
-University of St. Joseph (CT)
-University of St. Mary (KS)
-University of St. Thomas (MN)
-University of St. Thomas (TX)
-University of Tampa (FL)
-University of Tennessee (TN)
-University of Tennessee--Chattanooga (TN)
-University of Tennessee--Martin (TN)
-University of Texas Health Science Center--Houston (TX)
-University of Texas Health Science Center--San Antonio (TX)
-University of Texas Medical Branch--Galveston (TX)
-University of Texas of the Permian Basin (TX)
-University of Texas--Arlington (TX)
-University of Texas--Austin (TX)
-University of Texas--Dallas (TX)
-University of Texas--El Paso (TX)
-University of Texas--San Antonio (TX)
-University of Texas--Tyler (TX)
-University of the Arts (PA)
-University of the Cumberlands (KY)
-University of the District of Columbia (DC)
-University of the Incarnate Word (TX)
-University of the Ozarks (AR)
-University of the Pacific (CA)
-University of the Potomac (DC)
-University of the Sacred Heart (PR)
-University of the Sciences (PA)
-University of the Southwest (NM)
-University of the Virgin Islands (VI)
-University of the West (CA)
-University of Toledo (OH)
-University of Toronto (None)
-University of Tulsa (OK)
-University of Utah (UT)
-University of Valley Forge (PA)
-University of Vermont (VT)
-University of Victoria (None)
-University of Virginia (VA)
-University of Virginia--Wise (VA)
-University of Washington (WA)
-University of Waterloo (None)
-University of West Alabama (AL)
-University of West Florida (FL)
-University of West Georgia (GA)
-University of Windsor (None)
-University of Winnipeg (None)
-University of Wisconsin--Eau Claire (WI)
-University of Wisconsin--Green Bay (WI)
-University of Wisconsin--La Crosse (WI)
-University of Wisconsin--Madison (WI)
-University of Wisconsin--Milwaukee (WI)
-University of Wisconsin--Oshkosh (WI)
-University of Wisconsin--Parkside (WI)
-University of Wisconsin--Platteville (WI)
-University of Wisconsin--River Falls (WI)
-University of Wisconsin--Stevens Point (WI)
-University of Wisconsin--Stout (WI)
-University of Wisconsin--Superior (WI)
-University of Wisconsin--Whitewater (WI)
-University of Wyoming (WY)
-Upper Iowa University (IA)
-Urbana University (OH)
-Ursinus College (PA)
-Ursuline College (OH)
-Utah State University (UT)
-Utah Valley University (UT)
-Utica College (NY)
-V
-Valdosta State University (GA)
-Valley City State University (ND)
-Valparaiso University (IN)
-Vanderbilt University (TN)
-VanderCook College of Music (IL)
-Vanguard University of Southern California (CA)
-Vassar College (NY)
-Vaughn College of Aeronautics and Technology (NY)
-Vermont Technical College (VT)
-Villanova University (PA)
-Vincennes University (IN)
-Virginia Commonwealth University (VA)
-Virginia Military Institute (VA)
-Virginia State University (VA)
-Virginia Tech (VA)
-Virginia Union University (VA)
-Virginia Wesleyan College (VA)
-Viterbo University (WI)
-Voorhees College (SC)
-W
-Wabash College (IN)
-Wagner College (NY)
-Wake Forest University (NC)
-Walden University (MN)
-Waldorf College (IA)
-Walla Walla University (WA)
-Walsh College of Accountancy and Business Administration (MI)
-Walsh University (OH)
-Warner Pacific College (OR)
-Warner University (FL)
-Warren Wilson College (NC)
-Wartburg College (IA)
-Washburn University (KS)
-Washington Adventist University (MD)
-Washington and Jefferson College (PA)
-Washington and Lee University (VA)
-Washington College (MD)
-Washington State University (WA)
-Washington University in St. Louis (MO)
-Watkins College of Art, Design & Film (TN)
-Wayland Baptist University (TX)
-Wayne State College (NE)
-Wayne State University (MI)
-Waynesburg University (PA)
-Webb Institute (NY)
-Webber International University (FL)
-Weber State University (UT)
-Webster University (MO)
-Welch College (TN)
-Wellesley College (MA)
-Wells College (NY)
-Wentworth Institute of Technology (MA)
-Wesley College (DE)
-Wesleyan College (GA)
-Wesleyan University (CT)
-West Chester University of Pennsylvania (PA)
-West Liberty University (WV)
-West Texas A&M University (TX)
-West Virginia State University (WV)
-West Virginia University (WV)
-West Virginia University Institute of Technology (WV)
-West Virginia University--Parkersburg (WV)
-West Virginia Wesleyan College (WV)
-Western Carolina University (NC)
-Western Connecticut State University (CT)
-Western Governors University (UT)
-Western Illinois University (IL)
-Western International University (AZ)
-Western Kentucky University (KY)
-Western Michigan University (MI)
-Western Nevada College (NV)
-Western New England University (MA)
-Western New Mexico University (NM)
-Western Oregon University (OR)
-Western State Colorado University (CO)
-Western University (None)
-Western Washington University (WA)
-Westfield State University (MA)
-Westminster College (MO)
-Westminster College (PA)
-Westminster College (UT)
-Westmont College (CA)
-Wheaton College (IL)
-Wheaton College (MA)
-Wheeling Jesuit University (WV)
-Wheelock College (MA)
-Whitman College (WA)
-Whittier College (CA)
-Whitworth University (WA)
-Wichita State University (KS)
-Widener University (PA)
-Wilberforce University (OH)
-Wiley College (TX)
-Wilkes University (PA)
-Willamette University (OR)
-William Carey University (MS)
-William Jessup University (CA)
-William Jewell College (MO)
-William Paterson University of New Jersey (NJ)
-William Peace University (NC)
-William Penn University (IA)
-William Woods University (MO)
-Williams Baptist College (AR)
-Williams College (MA)
-Wilmington College (OH)
-Wilmington University (DE)
-Wilson College (PA)
-Wingate University (NC)
-Winona State University (MN)
-Winston-Salem State University (NC)
-Winthrop University (SC)
-Wisconsin Lutheran College (WI)
-Wittenberg University (OH)
-Wofford College (SC)
-Woodbury University (CA)
-Worcester Polytechnic Institute (MA)
-Worcester State University (MA)
-Wright State University (OH)
-X
-Xavier University (OH)
-Xavier University of Louisiana (LA)
-Y
-Yale University (CT)
-Yeshiva University (NY)
-York College (NE)
-York College of Pennsylvania (PA)
-York University (None)
-Youngstown State University (OH)
- -->
-
-
+North Park University (IL)<br>
+Northcentral University (AZ)<br>
+Northeastern Illinois University (IL)<br>
+Northeastern State University (OK)<br>
+Northeastern University (MA)<br>
+Northern Arizona University (AZ)<br>
+Northern Illinois University (IL)<br>
+Northern Kentucky University (KY)<br>
+Northern Michigan University (MI)<br>
+Northern New Mexico University (NM)<br>
+Northern State University (SD)<br>
+Northland College (WI)<br>
+Northwest Christian University (OR)<br>
+Northwest Florida State College (FL)<br>
+Northwest Missouri State University (MO)<br>
+Northwest Nazarene University (ID)<br>
+Northwest University (WA)<br>
+Northwestern College (IA)<br>
+Northwestern Health Sciences University (MN)<br>
+Northwestern Oklahoma State University (OK)<br>
+Northwestern State University of Louisiana (LA)<br>
+Northwestern University (IL)<br>
+Northwood University (MI)<br>
+Norwich University (VT)<br>
+Notre Dame College of Ohio (OH)<br>
+Notre Dame de Namur University (CA)<br>
+Notre Dame of Maryland University (MD)<br>
+Nova Scotia College of Art and Design (None)<br>
+Nova Southeastern University (FL)<br>
+Nyack College (NY)<br><br>
+<div id='header'> O </div> <br>
+Oakland City University (IN)<br>
+Oakland University (MI)<br>
+Oakwood University (AL)<br>
+Oberlin College (OH)<br>
+Occidental College (CA)<br>
+Oglala Lakota College (SD)<br>
+Oglethorpe University (GA)<br>
+Ohio Christian University (OH)<br>
+Ohio Dominican University (OH)<br>
+Ohio Northern University (OH)<br>
+Ohio State University--Columbus (OH)<br>
+Ohio University (OH)<br>
+Ohio Valley University (WV)<br>
+Ohio Wesleyan University (OH)<br>
+Oklahoma Baptist University (OK)<br>
+Oklahoma Christian University (OK)<br>
+Oklahoma City University (OK)<br>
+Oklahoma Panhandle State University (OK)<br>
+Oklahoma State University (OK)<br>
+Oklahoma State University Institute of Technology--Okmulgee (OK)<br>
+Oklahoma State University--Oklahoma City (OK)<br>
+Oklahoma Wesleyan University (OK)<br>
+Old Dominion University (VA)<br>
+Olivet College (MI)<br>
+Olivet Nazarene University (IL)<br>
+Olympic College (WA)<br>
+Oral Roberts University (OK)<br>
+Oregon College of Art and Craft (OR)<br>
+Oregon Health and Science University (OR)<br>
+Oregon Institute of Technology (OR)<br>
+Oregon State University (OR)<br>
+Otis College of Art and Design (CA)<br>
+Ottawa University (KS)<br>
+Otterbein University (OH)<br>
+Ouachita Baptist University (AR)<br>
+Our Lady of Holy Cross College (LA)<br>
+Our Lady of the Lake College (LA)<br>
+Our Lady of the Lake University (TX)<br><br>
+<div id='header'> P </div> <br>
+Pace University (NY)<br>
+Pacific Lutheran University (WA)<br>
+Pacific Northwest College of Art (OR)<br>
+Pacific Oaks College (CA)<br>
+Pacific Union College (CA)<br>
+Pacific University (OR)<br>
+Paine College (GA)<br>
+Palm Beach Atlantic University (FL)<br>
+Palmer College of Chiropractic (IA)<br>
+Park University (MO)<br>
+Parker University (TX)<br>
+Patten University (CA)<br>
+Paul Smith's College (NY)<br>
+Peirce College (PA)<br>
+Peninsula College (WA)<br>
+Pennsylvania College of Art and Design (PA)<br>
+Pennsylvania College of Technology (PA)<br>
+Pennsylvania State University--Erie, The Behrend College (PA)<br>
+Pennsylvania State University--Harrisburg (PA)<br>
+Pennsylvania State University--University Park (PA)<br>
+Pepperdine University (CA)<br>
+Peru State College (NE)<br>
+Pfeiffer University (NC)<br>
+Philadelphia University (PA)<br>
+Philander Smith College (AR)<br>
+Piedmont College (GA)<br>
+Pine Manor College (MA)<br>
+Pittsburg State University (KS)<br>
+Pitzer College (CA)<br>
+Plaza College (NY)<br>
+Plymouth State University (NH)<br>
+Point Loma Nazarene University (CA)<br>
+Point Park University (PA)<br>
+Point University (GA)<br>
+Pomona College (CA)<br>
+Pontifical Catholic University of Puerto Rico (PR)<br>
+Pontifical College Josephinum (OH)<br>
+Portland State University (OR)<br>
+Post University (CT)<br>
+Prairie View A&M University (TX)<br>
+Pratt Institute (NY)<br>
+Presbyterian College (SC)<br>
+Prescott College (AZ)<br>
+Presentation College (SD)<br>
+Princeton University (NJ)<br>
+Principia College (IL)<br>
+Providence College (RI)<br>
+Puerto Rico Conservatory of Music (PR)<br>
+Purchase College--SUNY (NY)<br>
+Purdue University--Calumet (IN)<br>
+Purdue University--North Central (IN)<br>
+Purdue University--West Lafayette (IN)<br><br>
+<div id='header'> Q </div> <br>
+Queens University of Charlotte (NC)<br>
+Quincy University (IL)<br>
+Quinnipiac University (CT)<br><br>
+<div id='header'> R </div> <br>
+Radford University (VA)<br>
+Ramapo College of New Jersey (NJ)<br>
+Randolph College (VA)<br>
+Randolph-Macon College (VA)<br>
+Ranken Technical College (MO)<br>
+Reed College (OR)<br>
+Regent University (VA)<br>
+Regent's American College London (None)<br>
+Regis College (MA)<br>
+Regis University (CO)<br>
+Reinhardt University (GA)<br>
+Rensselaer Polytechnic Institute (NY)<br>
+Research College of Nursing (MO)<br>
+Resurrection University (IL)<br>
+Rhode Island College (RI)<br>
+Rhode Island School of Design (RI)<br>
+Rhodes College (TN)<br>
+Rice University (TX)<br>
+Richmond--The American International University in London (None)<br>
+Rider University (NJ)<br>
+Ringling College of Art and Design (FL)<br>
+Ripon College (WI)<br>
+Rivier University (NH)<br>
+Roanoke College (VA)<br>
+Robert B. Miller College (MI)<br>
+Robert Morris University (IL)<br>
+Robert Morris University (PA)<br>
+Roberts Wesleyan College (NY)<br>
+Rochester College (MI)<br>
+Rochester Institute of Technology (NY)<br>
+Rockford University (IL)<br>
+Rockhurst University (MO)<br>
+Rocky Mountain College (MT)<br>
+Rocky Mountain College of Art and Design (CO)<br>
+Roger Williams University (RI)<br>
+Rogers State University (OK)<br>
+Rollins College (FL)<br>
+Roosevelt University (IL)<br>
+Rosalind Franklin University of Medicine and Science (IL)<br>
+Rose-Hulman Institute of Technology (IN)<br>
+Rosemont College (PA)<br>
+Rowan University (NJ)<br>
+Rust College (MS)<br>
+Rutgers, The State University of New Jersey--Camden (NJ)<br>
+Rutgers, The State University of New Jersey--New Brunswick (NJ)<br>
+Rutgers, The State University of New Jersey--Newark (NJ)<br>
+Ryerson University (None)<br><br>
+<div id='header'> S </div> <br>
+Sacred Heart Major Seminary (MI)<br>
+Sacred Heart University (CT)<br>
+Saginaw Valley State University (MI)<br>
+Saint Leo University (FL)<br>
+Saint Louis University (MO)<br>
+Saint Mary-of-the-Woods College (IN)<br>
+Saint Vincent College (PA)<br>
+Salem College (NC)<br>
+Salem International University (WV)<br>
+Salem State University (MA)<br>
+Salisbury University (MD)<br>
+Salish Kootenai College (MT)<br>
+Salve Regina University (RI)<br>
+Sam Houston State University (TX)<br>
+Samford University (AL)<br>
+Samuel Merritt University (CA)<br>
+San Diego Christian College (CA)<br>
+San Diego State University (CA)<br>
+San Francisco Art Institute (CA)<br>
+San Francisco Conservatory of Music (CA)<br>
+San Francisco State University (CA)<br>
+San Jose State University (CA)<br>
+Santa Clara University (CA)<br>
+Santa Fe University of Art and Design (NM)<br>
+Sarah Lawrence College (NY)<br>
+Savannah College of Art and Design (GA)<br>
+Savannah State University (GA)<br>
+School of the Art Institute of Chicago (IL)<br>
+School of Visual Arts (NY)<br>
+Schreiner University (TX)<br>
+Scripps College (CA)<br>
+Seattle Pacific University (WA)<br>
+Seattle University (WA)<br>
+Seminole State College of Florida (FL)<br>
+Seton Hall University (NJ)<br>
+Seton Hill University (PA)<br>
+Sewanee--University of the South (TN)<br>
+Shaw University (NC)<br>
+Shawnee State University (OH)<br>
+Shenandoah University (VA)<br>
+Shepherd University (WV)<br>
+Shimer College (IL)<br>
+Shippensburg University of Pennsylvania (PA)<br>
+Shorter University (GA)<br>
+Siena College (NY)<br>
+Siena Heights University (MI)<br>
+Sierra Nevada College (NV)<br>
+Silver Lake College (WI)<br>
+Simmons College (MA)<br>
+Simon Fraser University (None)<br>
+Simpson College (IA)<br>
+Simpson University (CA)<br>
+Sinte Gleska University (SD)<br>
+Sitting Bull College (ND)<br>
+Skidmore College (NY)<br>
+Slippery Rock University of Pennsylvania (PA)<br>
+Smith College (MA)<br>
+Sojourner-Douglass College (MD)<br>
+Soka University of America (CA)<br>
+Sonoma State University (CA)<br>
+South Carolina State University (SC)<br>
+South College (TN)<br>
+South Dakota School of Mines and Technology (SD)<br>
+South Dakota State University (SD)<br>
+South Seattle College (WA)<br>
+South Texas College (TX)<br>
+South University (GA)<br>
+Southeast Missouri State University (MO)<br>
+Southeastern Louisiana University (LA)<br>
+Southeastern Oklahoma State University (OK)<br>
+Southeastern University (FL)<br>
+Southern Adventist University (TN)<br>
+Southern Arkansas University (AR)<br>
+Southern Baptist Theological Seminary (KY)<br>
+Southern California Institute of Architecture (CA)<br>
+Southern Connecticut State University (CT)<br>
+Southern Illinois University--Carbondale (IL)<br>
+Southern Illinois University--Edwardsville (IL)<br>
+Southern Methodist University (TX)<br>
+Southern Nazarene University (OK)<br>
+Southern New Hampshire University (NH)<br>
+Southern Oregon University (OR)<br>
+Southern University and A&M College (LA)<br>
+Southern University--New Orleans (LA)<br>
+Southern Utah University (UT)<br>
+Southern Vermont College (VT)<br>
+Southern Wesleyan University (SC)<br>
+Southwest Baptist University (MO)<br>
+Southwest Minnesota State University (MN)<br>
+Southwest University of Visual Arts (AZ)<br>
+Southwestern Adventist University (TX)<br>
+Southwestern Assemblies of God University (TX)<br>
+Southwestern Christian College (TX)<br>
+Southwestern Christian University (OK)<br>
+Southwestern College (KS)<br>
+Southwestern Oklahoma State University (OK)<br>
+Southwestern University (TX)<br>
+Spalding University (KY)<br>
+Spelman College (GA)<br>
+Spring Arbor University (MI)<br>
+Spring Hill College (AL)<br>
+Springfield College (MA)<br>
+St. Ambrose University (IA)<br>
+St. Anselm College (NH)<br>
+St. Anthony College of Nursing (IL)<br>
+St. Augustine College (IL)<br>
+St. Augustine's University (NC)<br>
+St. Bonaventure University (NY)<br>
+St. Catharine College (KY)<br>
+St. Catherine University (MN)<br>
+St. Charles Borromeo Seminary (PA)<br>
+St. Cloud State University (MN)<br>
+St. Edward's University (TX)<br>
+St. Francis College (NY)<br>
+St. Francis Medical Center College of Nursing (IL)<br>
+St. Francis University (PA)<br>
+St. Gregory's University (OK)<br>
+St. John Fisher College (NY)<br>
+St. John Vianney College Seminary (FL)<br>
+St. John's College (MD)<br>
+St. John's College (NM)<br>
+St. John's College (IL)<br>
+St. John's University (MN)<br>
+St. John's University (NY)<br>
+St. Joseph Seminary College (LA)<br>
+St. Joseph's College (IN)<br>
+St. Joseph's College (ME)<br>
+St. Joseph's College New York (NY)<br>
+St. Joseph's University (PA)<br>
+St. Lawrence University (NY)<br>
+St. Louis College of Pharmacy (MO)<br>
+St. Luke's College of Health Sciences (MO)<br>
+St. Martin's University (WA)<br>
+St. Mary's College (IN)<br>
+St. Mary's College of California (CA)<br>
+St. Mary's College of Maryland (MD)<br>
+St. Mary's Seminary and University (MD)<br>
+St. Mary's University of Minnesota (MN)<br>
+St. Mary's University of San Antonio (TX)<br>
+St. Michael's College (VT)<br>
+St. Norbert College (WI)<br>
+St. Olaf College (MN)<br>
+St. Peter's University (NJ)<br>
+St. Petersburg College (FL)<br>
+St. Thomas Aquinas College (NY)<br>
+St. Thomas University (FL)<br>
+St. Xavier University (IL)<br>
+Stanford University (CA)<br>
+Stephen F. Austin State University (TX)<br>
+Stephens College (MO)<br>
+Sterling College (KS)<br>
+Sterling College (VT)<br>
+Stetson University (FL)<br>
+Stevens Institute of Technology (NJ)<br>
+Stevenson University (MD)<br>
+Stillman College (AL)<br>
+Stockton University (NJ)<br>
+Stonehill College (MA)<br>
+Stony Brook University--SUNY (NY)<br>
+Strayer University (DC)<br>
+Suffolk University (MA)<br>
+Sul Ross State University (TX)<br>
+Sullivan University (KY)<br>
+Summit University (PA)<br>
+SUNY Buffalo State (NY)<br>
+SUNY College of Agriculture and Technology--Cobleskill (NY)<br>
+SUNY College of Environmental Science and Forestry (NY)<br>
+SUNY College of Technology--Alfred (NY)<br>
+SUNY College of Technology--Canton (NY)<br>
+SUNY College of Technology--Delhi (NY)<br>
+SUNY College--Cortland (NY)<br>
+SUNY College--Old Westbury (NY)<br>
+SUNY College--Oneonta (NY)<br>
+SUNY College--Potsdam (NY)<br>
+SUNY Downstate Medical Center (NY)<br>
+SUNY Empire State College (NY)<br>
+SUNY Maritime College (NY)<br>
+SUNY Polytechnic Institute (NY)<br>
+SUNY Upstate Medical University (NY)<br>
+SUNY--Fredonia (NY)<br>
+SUNY--Geneseo (NY)<br>
+SUNY--New Paltz (NY)<br>
+SUNY--Oswego (NY)<br>
+SUNY--Plattsburgh (NY)<br>
+Susquehanna University (PA)<br>
+Swarthmore College (PA)<br>
+Syracuse University (NY)<br><br>
+<div id='header'> T </div> <br>
+Tabor College (KS)<br>
+Talladega College (AL)<br>
+Tarleton State University (TX)<br>
+Taylor University (IN)<br>
+Temple University (PA)<br>
+Tennessee State University (TN)<br>
+Tennessee Technological University (TN)<br>
+Tennessee Wesleyan College (TN)<br>
+Texas A&M International University (TX)<br>
+Texas A&M University--College Station (TX)<br>
+Texas A&M University--Commerce (TX)<br>
+Texas A&M University--Corpus Christi (TX)<br>
+Texas A&M University--Kingsville (TX)<br>
+Texas A&M University--Texarkana (TX)<br>
+Texas Christian University (TX)<br>
+Texas College (TX)<br>
+Texas Lutheran University (TX)<br>
+Texas Southern University (TX)<br>
+Texas State University (TX)<br>
+Texas Tech University (TX)<br>
+Texas Tech University Health Sciences Center (TX)<br>
+Texas Wesleyan University (TX)<br>
+Texas Woman's University (TX)<br>
+The Catholic University of America (DC)<br>
+The Citadel (SC)<br>
+The King's College (NY)<br>
+The Sage Colleges (NY)<br>
+Thiel College (PA)<br>
+Thomas Aquinas College (CA)<br>
+Thomas College (ME)<br>
+Thomas Edison State College (NJ)<br>
+Thomas Jefferson University (PA)<br>
+Thomas More College (KY)<br>
+Thomas More College of Liberal Arts (NH)<br>
+Thomas University (GA)<br>
+Tiffin University (OH)<br>
+Tilburg University (None)<br>
+Toccoa Falls College (GA)<br>
+Tougaloo College (MS)<br>
+Touro College (NY)<br>
+Towson University (MD)<br>
+Transylvania University (KY)<br>
+Trent University (None)<br>
+Trevecca Nazarene University (TN)<br>
+Trident University International (CA)<br>
+Trine University (IN)<br>
+Trinity Christian College (IL)<br>
+Trinity College (CT)<br>
+Trinity College of Nursing & Health Sciences (IL)<br>
+Trinity International University (IL)<br>
+Trinity Lutheran College (WA)<br>
+Trinity University (TX)<br>
+Trinity Washington University (DC)<br>
+Trinity Western University (None)<br>
+Troy University (AL)<br>
+Truett McConnell College (GA)<br>
+Truman State University (MO)<br>
+Tufts University (MA)<br>
+Tulane University (LA)<br>
+Tusculum College (TN)<br>
+Tuskegee University (AL)<br><br>
+<div id='header'> U </div> <br>
+Union College (KY)<br>
+Union College (NE)<br>
+Union College (NY)<br>
+Union Institute and University (OH)<br>
+Union University (TN)<br>
+United States Air Force Academy (CO)<br>
+United States Coast Guard Academy (CT)<br>
+United States International University--Kenya (None)<br>
+United States Merchant Marine Academy (NY)<br>
+United States Military Academy (NY)<br>
+United States Naval Academy (MD)<br>
+United States Sports Academy (AL)<br>
+Unity College (ME)<br>
+Universidad Adventista de las Antillas (PR)<br>
+Universidad del Este (PR)<br>
+Universidad del Turabo (PR)<br>
+Universidad Metropolitana (PR)<br>
+Universidad Politecnica de Puerto Rico (PR)<br>
+University at Albany--SUNY (NY)<br>
+University at Buffalo--SUNY (NY)<br>
+University of Advancing Technology (AZ)<br>
+University of Akron (OH)<br>
+University of Alabama (AL)<br>
+University of Alabama--Birmingham (AL)<br>
+University of Alabama--Huntsville (AL)<br>
+University of Alaska--Anchorage (AK)<br>
+University of Alaska--Fairbanks (AK)<br>
+University of Alaska--Southeast (AK)<br>
+University of Alberta (None)<br>
+University of Arizona (AZ)<br>
+University of Arkansas (AR)<br>
+University of Arkansas for Medical Sciences (AR)<br>
+University of Arkansas--Fort Smith (AR)<br>
+University of Arkansas--Little Rock (AR)<br>
+University of Arkansas--Monticello (AR)<br>
+University of Arkansas--Pine Bluff (AR)<br>
+University of Baltimore (MD)<br>
+University of Bridgeport (CT)<br>
+University of British Columbia (None)<br>
+University of Calgary (None)<br>
+University of California--Berkeley (CA)<br>
+University of California--Davis (CA)<br>
+University of California--Irvine (CA)<br>
+University of California--Los Angeles (CA)<br>
+University of California--Merced (CA)<br>
+University of California--Riverside (CA)<br>
+University of California--San Diego (CA)<br>
+University of California--Santa Barbara (CA)<br>
+University of California--Santa Cruz (CA)<br>
+University of Central Arkansas (AR)<br>
+University of Central Florida (FL)<br>
+University of Central Missouri (MO)<br>
+University of Central Oklahoma (OK)<br>
+University of Charleston (WV)<br>
+University of Chicago (IL)<br>
+University of Cincinnati (OH)<br>
+University of Cincinnati--UC Blue Ash College (OH)<br>
+University of Colorado--Boulder (CO)<br>
+University of Colorado--Colorado Springs (CO)<br>
+University of Colorado--Denver (CO)<br>
+University of Connecticut (CT)<br>
+University of Dallas (TX)<br>
+University of Dayton (OH)<br>
+University of Delaware (DE)<br>
+University of Denver (CO)<br>
+University of Detroit Mercy (MI)<br>
+University of Dubuque (IA)<br>
+University of Evansville (IN)<br>
+University of Findlay (OH)<br>
+University of Florida (FL)<br>
+University of Georgia (GA)<br>
+University of Great Falls (MT)<br>
+University of Guam (GU)<br>
+University of Guelph (None)<br>
+University of Hartford (CT)<br>
+University of Hawaii--Hilo (HI)<br>
+University of Hawaii--Manoa (HI)<br>
+University of Hawaii--Maui College (HI)<br>
+University of Hawaii--West Oahu (HI)<br>
+University of Houston (TX)<br>
+University of Houston--Clear Lake (TX)<br>
+University of Houston--Downtown (TX)<br>
+University of Houston--Victoria (TX)<br>
+University of Idaho (ID)<br>
+University of Illinois--Chicago (IL)<br>
+University of Illinois--Springfield (IL)<br>
+University of Illinois--Urbana-Champaign (IL)<br>
+University of Indianapolis (IN)<br>
+University of Iowa (IA)<br>
+University of Jamestown (ND)<br>
+University of Kansas (KS)<br>
+University of Kentucky (KY)<br>
+University of La Verne (CA)<br>
+University of Louisiana--Lafayette (LA)<br>
+University of Louisiana--Monroe (LA)<br>
+University of Louisville (KY)<br>
+University of Maine (ME)<br>
+University of Maine--Augusta (ME)<br>
+University of Maine--Farmington (ME)<br>
+University of Maine--Fort Kent (ME)<br>
+University of Maine--Machias (ME)<br>
+University of Maine--Presque Isle (ME)<br>
+University of Mary (ND)<br>
+University of Mary Hardin-Baylor (TX)<br>
+University of Mary Washington (VA)<br>
+University of Maryland University College (MD)<br>
+University of Maryland--Baltimore (MD)<br>
+University of Maryland--Baltimore County (MD)<br>
+University of Maryland--College Park (MD)<br>
+University of Maryland--Eastern Shore (MD)<br>
+University of Massachusetts--Amherst (MA)<br>
+University of Massachusetts--Boston (MA)<br>
+University of Massachusetts--Dartmouth (MA)<br>
+University of Massachusetts--Lowell (MA)<br>
+University of Memphis (TN)<br>
+University of Miami (FL)<br>
+University of Michigan--Ann Arbor (MI)<br>
+University of Michigan--Dearborn (MI)<br>
+University of Michigan--Flint (MI)<br>
+University of Minnesota--Crookston (MN)<br>
+University of Minnesota--Duluth (MN)<br>
+University of Minnesota--Morris (MN)<br>
+University of Minnesota--Twin Cities (MN)<br>
+University of Mississippi (MS)<br>
+University of Mississippi Medical Center (MS)<br>
+University of Missouri (MO)<br>
+University of Missouri--Kansas City (MO)<br>
+University of Missouri--St. Louis (MO)<br>
+University of Mobile (AL)<br>
+University of Montana (MT)<br>
+University of Montana--Western (MT)<br>
+University of Montevallo (AL)<br>
+University of Mount Olive (NC)<br>
+University of Mount Union (OH)<br>
+University of Nebraska Medical Center (NE)<br>
+University of Nebraska--Kearney (NE)<br>
+University of Nebraska--Lincoln (NE)<br>
+University of Nebraska--Omaha (NE)<br>
+University of Nevada--Las Vegas (NV)<br>
+University of Nevada--Reno (NV)<br>
+University of New Brunswick (None)<br>
+University of New England (ME)<br>
+University of New Hampshire (NH)<br>
+University of New Haven (CT)<br>
+University of New Mexico (NM)<br>
+University of New Orleans (LA)<br>
+University of North Alabama (AL)<br>
+University of North Carolina School of the Arts (NC)<br>
+University of North Carolina--Asheville (NC)<br>
+University of North Carolina--Chapel Hill (NC)<br>
+University of North Carolina--Charlotte (NC)<br>
+University of North Carolina--Greensboro (NC)<br>
+University of North Carolina--Pembroke (NC)<br>
+University of North Carolina--Wilmington (NC)<br>
+University of North Dakota (ND)<br>
+University of North Florida (FL)<br>
+University of North Georgia (GA)<br>
+University of North Texas (TX)<br>
+University of Northern Colorado (CO)<br>
+University of Northern Iowa (IA)<br>
+University of Northwestern Ohio (OH)<br>
+University of Northwestern--St. Paul (MN)<br>
+University of Notre Dame (IN)<br>
+University of Oklahoma (OK)<br>
+University of Oregon (OR)<br>
+University of Ottawa (None)<br>
+University of Pennsylvania (PA)<br>
+University of Phoenix (AZ)<br>
+University of Pikeville (KY)<br>
+University of Pittsburgh (PA)<br>
+University of Portland (OR)<br>
+University of Prince Edward Island (None)<br>
+University of Puerto Rico--Aguadilla (PR)<br>
+University of Puerto Rico--Arecibo (PR)<br>
+University of Puerto Rico--Bayamon (PR)<br>
+University of Puerto Rico--Cayey (PR)<br>
+University of Puerto Rico--Humacao (PR)<br>
+University of Puerto Rico--Mayaguez (PR)<br>
+University of Puerto Rico--Medical Sciences Campus (PR)<br>
+University of Puerto Rico--Ponce (PR)<br>
+University of Puerto Rico--Rio Piedras (PR)<br>
+University of Puget Sound (WA)<br>
+University of Redlands (CA)<br>
+University of Regina (None)<br>
+University of Rhode Island (RI)<br>
+University of Richmond (VA)<br>
+University of Rio Grande (OH)<br>
+University of Rochester (NY)<br>
+University of Saint Francis (IN)<br>
+University of San Diego (CA)<br>
+University of San Francisco (CA)<br>
+University of Saskatchewan (None)<br>
+University of Science and Arts of Oklahoma (OK)<br>
+University of Scranton (PA)<br>
+University of Sioux Falls (SD)<br>
+University of South Alabama (AL)<br>
+University of South Carolina (SC)<br>
+University of South Carolina--Aiken (SC)<br>
+University of South Carolina--Beaufort (SC)<br>
+University of South Carolina--Upstate (SC)<br>
+University of South Dakota (SD)<br>
+University of South Florida (FL)<br>
+University of South Florida--St. Petersburg (FL)<br>
+University of Southern California (CA)<br>
+University of Southern Indiana (IN)<br>
+University of Southern Maine (ME)<br>
+University of Southern Mississippi (MS)<br>
+University of St. Francis (IL)<br>
+University of St. Joseph (CT)<br>
+University of St. Mary (KS)<br>
+University of St. Thomas (MN)<br>
+University of St. Thomas (TX)<br>
+University of Tampa (FL)<br>
+University of Tennessee (TN)<br>
+University of Tennessee--Chattanooga (TN)<br>
+University of Tennessee--Martin (TN)<br>
+University of Texas Health Science Center--Houston (TX)<br>
+University of Texas Health Science Center--San Antonio (TX)<br>
+University of Texas Medical Branch--Galveston (TX)<br>
+University of Texas of the Permian Basin (TX)<br>
+University of Texas--Arlington (TX)<br>
+University of Texas--Austin (TX)<br>
+University of Texas--Dallas (TX)<br>
+University of Texas--El Paso (TX)<br>
+University of Texas--San Antonio (TX)<br>
+University of Texas--Tyler (TX)<br>
+University of the Arts (PA)<br>
+University of the Cumberlands (KY)<br>
+University of the District of Columbia (DC)<br>
+University of the Incarnate Word (TX)<br>
+University of the Ozarks (AR)<br>
+University of the Pacific (CA)<br>
+University of the Potomac (DC)<br>
+University of the Sacred Heart (PR)<br>
+University of the Sciences (PA)<br>
+University of the Southwest (NM)<br>
+University of the Virgin Islands (VI)<br>
+University of the West (CA)<br>
+University of Toledo (OH)<br>
+University of Toronto (None)v
+University of Tulsa (OK)<br>
+University of Utah (UT)<br>
+University of Valley Forge (PA)<br>
+University of Vermont (VT)<br>
+University of Victoria (None)<br>
+University of Virginia (VA)<br>
+University of Virginia--Wise (VA)<br>
+University of Washington (WA)<br>
+University of Waterloo (None)<br>
+University of West Alabama (AL)<br>
+University of West Florida (FL)<br>
+University of West Georgia (GA)<br>
+University of Windsor (None)<br>
+University of Winnipeg (None)<br>
+University of Wisconsin--Eau Claire (WI)<br>
+University of Wisconsin--Green Bay (WI)<br>
+University of Wisconsin--La Crosse (WI)<br>
+University of Wisconsin--Madison (WI)<br>
+University of Wisconsin--Milwaukee (WI)<br>
+University of Wisconsin--Oshkosh (WI)<br>
+University of Wisconsin--Parkside (WI)<br>
+University of Wisconsin--Platteville (WI)<br>
+University of Wisconsin--River Falls (WI)<br>
+University of Wisconsin--Stevens Point (WI)<br>
+University of Wisconsin--Stout (WI)<br>
+University of Wisconsin--Superior (WI)<br>
+University of Wisconsin--Whitewater (WI)<br>
+University of Wyoming (WY)<br>
+Upper Iowa University (IA)<br>
+Urbana University (OH)<br>
+Ursinus College (PA)<br>
+Ursuline College (OH)<br>
+Utah State University (UT)<br>
+Utah Valley University (UT)<br>
+Utica College (NY)<br><br>
+<div id='header'> V </div> <br>
+Valdosta State University (GA)<br>
+Valley City State University (ND)<br>
+Valparaiso University (IN)<br>
+Vanderbilt University (TN)<br>
+VanderCook College of Music (IL)<br>
+Vanguard University of Southern California (CA)<br>
+Vassar College (NY)<br>
+Vaughn College of Aeronautics and Technology (NY)<br>
+Vermont Technical College (VT)<br>
+Villanova University (PA)<br>
+Vincennes University (IN)<br>
+Virginia Commonwealth University (VA)<br>
+Virginia Military Institute (VA)<br>
+Virginia State University (VA)<br>
+Virginia Tech (VA)<br>
+Virginia Union University (VA)<br>
+Virginia Wesleyan College (VA)<br>
+Viterbo University (WI)<br>
+Voorhees College (SC)<br><br>
+<div id='header'> W </div> <br>
+Wabash College (IN)<br>
+Wagner College (NY)<br>
+Wake Forest University (NC)<br>
+Walden University (MN)<br>
+Waldorf College (IA)<br>
+Walla Walla University (WA)<br>
+Walsh College of Accountancy and Business Administration (MI)<br>
+Walsh University (OH)<br>
+Warner Pacific College (OR)<br>
+Warner University (FL)<br>
+Warren Wilson College (NC)<br>
+Wartburg College (IA)<br>
+Washburn University (KS)<br>
+Washington Adventist University (MD)<br>
+Washington and Jefferson College (PA)<br>
+Washington and Lee University (VA)<br>
+Washington College (MD)<br>
+Washington State University (WA)<br>
+Washington University in St. Louis (MO)<br>
+Watkins College of Art, Design & Film (TN)<br>
+Wayland Baptist University (TX)<br>
+Wayne State College (NE)<br>
+Wayne State University (MI)<br>
+Waynesburg University (PA)<br>
+Webb Institute (NY)<br>
+Webber International University (FL)<br>
+Weber State University (UT)<br>
+Webster University (MO)<br>
+Welch College (TN)<br>
+Wellesley College (MA)<br>
+Wells College (NY)<br>
+Wentworth Institute of Technology (MA)<br>
+Wesley College (DE)<br>
+Wesleyan College (GA)<br>
+Wesleyan University (CT)<br>
+West Chester University of Pennsylvania (PA)<br>
+West Liberty University (WV)<br>
+West Texas A&M University (TX)<br>
+West Virginia State University (WV)<br>
+West Virginia University (WV)<br>
+West Virginia University Institute of Technology (WV)<br>
+West Virginia University--Parkersburg (WV)<br>
+West Virginia Wesleyan College (WV)<br>
+Western Carolina University (NC)<br>
+Western Connecticut State University (CT)<br>
+Western Governors University (UT)<br>
+Western Illinois University (IL)<br>
+Western International University (AZ)<br>
+Western Kentucky University (KY)<br>
+Western Michigan University (MI)<br>
+Western Nevada College (NV)<br>
+Western New England University (MA)<br>
+Western New Mexico University (NM)<br>
+Western Oregon University (OR)<br>
+Western State Colorado University (CO)<br>
+Western University (None)<br>
+Western Washington University (WA)<br>
+Westfield State University (MA)<br>
+Westminster College (MO)<br>
+Westminster College (PA)<br>
+Westminster College (UT)<br>
+Westmont College (CA)<br>
+Wheaton College (IL)<br>
+Wheaton College (MA)<br>
+Wheeling Jesuit University (WV)<br>
+Wheelock College (MA)<br>
+Whitman College (WA)<br>
+Whittier College (CA)<br>
+Whitworth University (WA)<br>
+Wichita State University (KS)<br>
+Widener University (PA)<br>
+Wilberforce University (OH)<br>
+Wiley College (TX)<br>
+Wilkes University (PA)<br>
+Willamette University (OR)<br>
+William Carey University (MS)<br>
+William Jessup University (CA)<br>
+William Jewell College (MO)<br>
+William Paterson University of New Jersey (NJ)<br>
+William Peace University (NC)<br>
+William Penn University (IA)<br>
+William Woods University (MO)<br>
+Williams Baptist College (AR)<br>
+Williams College (MA)<br>
+Wilmington College (OH)<br>
+Wilmington University (DE)<br>
+Wilson College (PA)<br>
+Wingate University (NC)<br>
+Winona State University (MN)<br>
+Winston-Salem State University (NC)<br>
+Winthrop University (SC)<br>
+Wisconsin Lutheran College (WI)<br>
+Wittenberg University (OH)<br>
+Wofford College (SC)<br>
+Woodbury University (CA)<br>
+Worcester Polytechnic Institute (MA)<br>
+Worcester State University (MA)<br>
+Wright State University (OH)<br><br>
+<div id='header'> X </div> <br>
+Xavier University (OH)<br>
+Xavier University of Louisiana (LA)<br><br>
+<div id='header'> Y </div><br>
+Yale University (CT)<br>
+Yeshiva University (NY)<br>
+York College (NE)<br>
+York College of Pennsylvania (PA)<br>
+York University (None)<br>
+Youngstown State University (OH) <br>
 
 
 
